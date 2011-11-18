@@ -247,8 +247,7 @@ h6{font-size:1em;}
   margin: 10px 14px;
 }
 nav#main{
-  height: 58px;	
-  border-bottom: 1px solid #008286;
+  height: 64px;
 }
 
 /* Main navigation */
@@ -260,26 +259,20 @@ nav#main ol{
 nav#main ol li{ 
   background: none;
   float:left;
-  border-left: 1px solid #008286;  
+  padding: 0 1px;
 }
 nav#main ol li.last{ 
-  border-right: 1px solid #008286;  
 }
 nav#main ol li a{
   background: none;
   display: block;
-  height: 38px;	
   color: #fff;
-  text-shadow:-1px 1px 0px #333333;
-  -moz-text-shadow:-1px 1px 0px #333333;
-  -webkit-text-shadow:-1px 1px 0px #333333;
-  padding: 20px 10px 0 10px;
-  font-weight: lighter;
-  letter-spacing: .1em;
-  font-size: 15px;
+  padding: 24px 8px;
+  font-size: 14px;
+  line-height: 16px;
 }
 nav#main ol li a:hover{ 
-  background: rgba(0,0,0,.50);
+  background: #026B6E;
 }
 section#main {
   padding-bottom: 50px;
@@ -287,11 +280,13 @@ section#main {
 
 header{
   margin-left: auto;
+  border-radius: 0 0 4px 4px;
 	margin-right: auto;
+        box-shadow: 0 1px 6px #BBBBBB;
 	width: 882px;
 	padding-left: 9px;
 	padding-right: 9px;
-	background:url("../images/menu_background.png");
+        background: #008C93;
 }
 
 footer{
