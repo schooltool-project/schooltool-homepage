@@ -16,9 +16,10 @@ $(document).ready(function (){
     effect: 'fade',
     captionOpacity: .9,
     controlNav: false,
+    pauseTime: 10000,
+    borderRadius: 10,
     directionNavHide: false // Only show on hover
      // Universal caption opacity
-    
   });
 
 	// your functions go here

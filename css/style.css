@@ -158,23 +158,23 @@ body {
   min-width: 882px;
   background: #ffffff;
 }
-h1{font-size:34px; font-weight: lighter;}
+h1{font-size:34px; font-weight: lighter; margin-top: 0.5em;}
 h2{font-size:1em;}
 h3{font-size: 20px; font-weight: normal; margin-bottom: .5em;}
-h4{font-size:20px; color: #008F94; font-weight: normal;}
-h5{font-size: 20px; font-weight: normal;}
+h4{font-size:18px; color: #008F94; font-weight: normal; margin-bottom: 1em;}
+h5{font-size: 18px; font-weight: normal; margin-bottom: .5em;}
 h6{font-size:1em;}
 
 
 /* Containers
 ----------------------------------------------------------------------------------------------------*/
 .wrapper{
+        -moz-box-shadow: 0 1px 4px #BBBBBB;
         box-shadow: 0 1px 4px #BBBBBB;
 	margin-left: auto;
 	margin-right: auto;
-	width: 966px;
-        padding-left: 5px;
-        padding-right: 5px;
+	width: 960px;
+        padding: 0 8px;
 	background: #dedede;
 }
 
@@ -186,8 +186,8 @@ h6{font-size:1em;}
   display:inline;
 	float: left;
 	position: relative;
-	margin-left: 9px;
-	margin-right: 9px;
+	margin-left: 8px;
+	margin-right: 8px;
 	margin-bottom: 1em;
 	width:  100%;
 }
@@ -199,7 +199,7 @@ h6{font-size:1em;}
 	width: 423px;
 }
 .three.columns .column{
-	width: 276px;
+	width: 304px;
 }
 .four.columns .column{
 	width: 202px;
@@ -218,7 +218,7 @@ h6{font-size:1em;}
 }
 
 .three.columns .column.span-2{
-  width: 570px;
+  width: 624px;
 }
 
 .left{
@@ -240,13 +240,35 @@ h6{font-size:1em;}
   -webkit-border-radius: 5px 5px 0px 0px; 
   border: 0px solid #800000;
 }
-.rounded .content{
-  padding: 10px 12px;
+.rounded .content {
+  padding: 20px 20px 0px 20px;
   min-height: 134px;
 }
-.rounded a{
-  margin: 10px 14px;
+
+.rounded .content p {
+    line-height: 1.4;
 }
+
+section#main .rounded {
+    min-height: 380px;
+}
+
+section#main .column .content {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+section#main .column .content p {
+    line-height: 1.4;
+    margin-bottom: 0.5em;
+}
+
+section#main .column a.learn {
+  position: absolute;
+  bottom: 24px;
+  right: 20px;
+}
+
 nav#main{
   height: 64px;
 }
@@ -281,11 +303,35 @@ section#main {
 
 header{
   margin-left: auto;
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
   border-radius: 0 0 4px 4px;
 	margin-right: auto;
+        -moz-box-shadow: 0 1px 6px #BBBBBB;
         box-shadow: 0 1px 6px #BBBBBB;
 	width: 976px;
         background: #008C93;
+}
+
+header .logo {
+    position: absolute;
+    right: 34px;
+    top: 12px;
+    z-index: 1;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+header .logo img {
+    vertical-align: top;
+}
+
+header .logo .school {
+    color: #DBE2DE;
+}
+
+header .logo .tool {
+    color: #ffffff;
 }
 
 footer{
@@ -359,7 +405,7 @@ input, select {
 
 .nivoSlider {
     position:relative;
-    width:570px; /* Change this to your images width */
+    width:624px; /* Change this to your images width */
     height:253px; /* Change this to your images height */
     background:url(images/loading.gif) no-repeat 50% 50%;
 }
@@ -376,4 +422,14 @@ input, select {
 strong.title{
   font-size: 22px;
   font-weight: lighter;
+}
+
+ul.uses {
+  list-style: disc; 
+  margin-left: 16px;
+}
+
+ul.uses li {
+    line-height: 1.4;
+    margin-bottom: 0.5em;
 }
