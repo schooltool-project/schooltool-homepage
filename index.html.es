@@ -82,13 +82,6 @@
     <script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.nivo.slider.2.6.js"></script>
     <script type="text/javascript">
-      function hasBorderRadius() {
-        var d = document.createElement("div").style;
-        if (typeof d.borderRadius !== "undefined") return true;
-        if (typeof d.WebkitBorderRadius !== "undefined") return true;
-        if (typeof d.MozBorderRadius !== "undefined") return true;
-        return false;
-      };
       $(document).ready(function () {
         $('#slider').nivoSlider({
           effect: 'fade',
@@ -98,18 +91,6 @@
           borderRadius: 10,
           directionNavHide: false,
         });
-        if (hasBorderRadius()) {
-          $(".rounded").each(function(){
-            var img = $(this).children("img");
-            var imgSrc = img.attr("src");
-            var imgHeight = img.height();
-            var imgWidth = img.width();
-            $(this).css("background-image", "url(" + imgSrc + ")")
-              .css("background-repeat","no-repeat")
-              .css("padding-top", imgHeight + "px");
-            img.remove();
-          });
-        }
       });
     </script>
   </head>
@@ -277,10 +258,7 @@
           <h3>
             ¿Que hay de nuevo?
           </h3>
-          <div class="rounded clearfix">
-            <img src="images/box1.jpg"
-                 alt="Foto de ¿Qué hay de nuevo? photo" class="round"
-                 height="165" />
+          <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
                 ¡SchoolTool 2.0 Listo!
@@ -313,9 +291,7 @@
           <h3>
             Cómo empezar
           </h3>
-          <div class="rounded clearfix">
-            <img src="images/box3.jpg" alt="Foto de Cómo empezar"
-                 class="round" height="165" />
+          <div class="rounded clearfix" id="how-to-get-started">
             <div class="content">
               <p>
                 El equipo base de desarrollo brinda una instalación de
@@ -357,10 +333,7 @@
           <h3>
             ¿Quiénes usan SchoolTool?
           </h3>
-          <div class="rounded clearfix">
-            <img src="images/box2.jpg"
-                 alt="Foto de ¿Quiénes usan SchoolTool?"
-                 class="round" height="165" />	
+          <div class="rounded clearfix" id="who-uses-schooltool">
             <div class="content">
               <p>
                 SchoolTool es parte de implementaciones tecnológicas

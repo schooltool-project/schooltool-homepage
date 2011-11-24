@@ -252,8 +252,20 @@ h6{font-size:1em;}
 section#main .rounded {
     min-height: 380px;
     padding-top: 165px;
+    background-repeat: no-repeat;
 }
 
+#whats-new {
+    background-image: url('images/box1.jpg');
+}
+
+#how-to-get-started {
+    background-image: url('images/box3.jpg');
+}
+
+#who-uses-schooltool {
+    background-image: url('images/box2.jpg');
+}
 section#main .column .content {
     padding-top: 20px;
     padding-bottom: 10px;
