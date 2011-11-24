@@ -94,27 +94,27 @@
         <ol>
           <li>
             <a href="http://book.schooltool.org/features.html">
-              Features
+              Características
             </a>
           </li>
           <li>
             <a href="http://launchpad.net/schooltool-project/+announcements">
-              News
+              Noticias
             </a>
           </li>
           <li>
             <a href="http://book.schooltool.org/screenshots.html">
-              Screenshots
+              Pantallazos
             </a>
           </li>
           <li>
             <a href="http://book.schooltool.org/system-requirements.html">
-              Download
+              Descargar
             </a>
           </li>
           <li class="last">
             <a href="http://book.schooltool.org/">
-              Documentation
+              Documentación
             </a>
           </li>
         </ol>
@@ -128,8 +128,8 @@
           <div>
             <div id="edit-keys-wrapper" class="form-item">
               <input type="text" class="form-text"
-                     onfocus="if(this.value=='Type to search'){this.value=''}"
-                     onblur="if(this.value==''){this.value='Type to search';}"
+                     onfocus="if(this.value=='Buscar aquí'){this.value=''}"
+                     onblur="if(this.value==''){this.value='Buscar aquí';}"
                      value="Type to search" size="20" id="edit-keys" name="q"
                      maxlength="255" />
               <input type="hidden" value="yes" name="check_keywords" />
@@ -137,14 +137,14 @@
             </div>
             <img src="images/arrow.png" class="form-submit"
                  onclick="$(this).closest('form').submit()"
-                 style="cursor: pointer" alt="Search button"/>
+                 style="cursor: pointer" alt="Botón de búsqueda"/>
           </div>
         </form>
       </div><!-- End Search Bar -->
       <section class="clearfix">
         <div class="column">
           <h1>
-            SchoolTool: the Global Student Information System
+            SchoolTool: el Sistema Global de Información Estudiantil
           </h1>
   	</div>
       </section>
@@ -154,64 +154,70 @@
           <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
               <!-- Add new images for the slider here -->
-              <img src="images/slide-1.png" alt="Gradebook slide"
+              <img src="images/slide-1.png"
+                   alt="Diapositiva del cuadro de notas"
                    title="#slide-1-caption" />
-              <img src="images/slide-3.png" alt="Calendar slide"
+              <img src="images/slide-3.png"
+                   alt="Diapositiva del calendario"
                    title="#slide-3-caption" />
-              <img src="images/slide-5.png" alt="Demographics slide"
+              <img src="images/slide-5.png"
+                   alt="Diapositiva de datos demográficos"
                    title="#slide-5-caption" />
-              <img src="images/slide-2.png" alt="Journal slide"
+              <img src="images/slide-2.png"
+                   alt="Diapositiva del diario"
                    title="#slide-2-caption" />
-              <img src="images/slide-4.png" alt="Intervention slide"
+              <img src="images/slide-4.png"
+                   alt="Diapositiva de intervenciones"
                    title="#slide-4-caption" />
             </div>
             <!-- Gradebook slide image caption. -->
             <div id="slide-1-caption" class="nivo-html-caption">
               <p>
-                <strong class="title">Gradebook</strong>
+                <strong class="title">Cuadro de Notas</strong>
                 <br />
-                Create and assess student assignments and activities,
-                calculate and report grades through SchoolTool's clean
-                web interface.
+                Cree y evalúe actividades y tareas de los estudiantes,
+                calcule y reporte notas a través de la fácil interfaz
+                web de SchoolTool.
               </p>
             </div>
             <!-- Journal slide image caption. -->
             <div id="slide-2-caption" class="nivo-html-caption">
               <p>
-                <strong class="title">Attendance Journal</strong>
+                <strong class="title">Diario de Asistencia</strong>
                 <br />
-                Improve accountability with online attendance tracking
-                and daily class participation scores.
+                Mejore la responsabilidad con un registro en línea de
+                asistencia y notas de participación diarias.
               </p>
             </div>
             <!-- Calendar slide image caption. -->
             <div id="slide-3-caption" class="nivo-html-caption">
               <p>
-                <strong class="title">Calendar</strong>
+                <strong class="title">Calendario</strong>
                 <br />
-                SchoolTool creates a web-based calendar for every
-                person, group, class and resource. Use the calendar to
-                reserve rooms and other shared resources.
+                SchoolTool crea un calendario web para cada persona,
+                grupo, clase y recurso. Use el calendario para
+                reservar salones y otros recursos compartidos.
               </p>
             </div>
             <!-- Intervention slide image caption. -->
             <div id="slide-4-caption" class="nivo-html-caption">
               <p>
-                <strong class="title">Intervention</strong>
+                <strong class="title">Intervenciones</strong>
                 <br />
-                Create and track student improvement plans
-                collaboratively between school staff and parents using
-                SchoolTool's Intervention system.
+                Cree y registre planes de mejora de los estudiantes en
+                forma colaborativa entre el personal de la escuela y
+                los padres usando el sistema de Intervenciones de
+                SchoolTool.
               </p>
             </div>
             <!-- Demographics slide image caption. -->
             <div id="slide-5-caption" class="nivo-html-caption">
               <p>
-                <strong class="title">Demographics and Contacts</strong>
+                <strong class="title">Datos Demográficos y Contactos</strong>
                 <br />
-                Store customizable personal data about students and
-                teachers.  Manage multiple adult contacts for each
-                child.
+                Almacene datos personales a la medida de los
+                estudiantes y maestros. Administre múltiples contactos
+                para cada persona.
               </p>
             </div>
           </div>
@@ -220,16 +226,17 @@
           <div class="rounded clearfix">
             <div class="content"  style="min-height: 235px">
               <h4>
-                Free Administrative Software for Schools Around the World
+                Software Libre Administrativo para Escuelas alrededor
+                del Mundo
               </h4>
               <p>
-                SchoolTool is an open source, web based student
-                information system designed for schools in the
-                developing world, with strong support for translation,
-                localization and automated deployment and updates via
-                the Ubuntu Linux installer and package management
-                system.
-              </p>
+                SchoolTool es un sistema web de información
+                estudiantil libre y de código abierto diseñado para
+                escuelas alrededor del mundo, con gran soporte de
+                traducción, localización, instalación y actualización
+                automática mediante el instalador y el sistema de
+                administración de paquetes de de Ubuntu Linux. 
+             </p>
             </div>
           </div>
         </div><!-- End Right Box -->
@@ -237,117 +244,122 @@
       <section class="three columns clearfix" id="main">
         <div class="column">
           <h3>
-            What's New?
+            ¿Que hay de nuevo?
           </h3>
           <div class="rounded clearfix">
-            <img src="images/box1.jpg" alt="What's New? photo" class="round"
+            <img src="images/box1.jpg"
+                 alt="Foto de ¿Qué hay de nuevo? photo" class="round"
                  height="165" />
             <div class="content">
               <h5>
-                SchoolTool 2.0 Released!
+                ¡SchoolTool 2.0 Listo!
               </h5>
               <p>
-                SchoolTool 2.0 represents a complete rethinking of
-                SchoolTool's web interface from the organization of
-                the application as a whole to the layout of each form
-                and button.
+                SchoolTool 2.0 representa una restructuración completa
+                de la interfaz web del usuario desde la organización
+                de la aplicación como un todo hasta el diseño de cada
+                formulario y botón.
               </p>
               <p>
-                The staring point for the redesign was the Ubuntu Web
-                Design Guidelines and the free Ubuntu font, both
-                created by <a href="http://design.canonical.com/">Canonical
-                Design</a>. We developed a new color scheme and logo
-                with <a href="http://www.schwadesign.com/">Schwadesign</a>.
-                This gave us a clear, attractive and consistent
-                foundation for all our web assets across our homepage,
-                documentation, and the SchoolTool application
-                itself...
+                El punto de partida para el rediseño fueron las
+                Directrices de Diseño Web de Ubuntu y la fuente libre
+                Ubuntu, ambas creadas por
+                <a href="http://design.canonical.com/">Canonical
+                Design</a>. Desarrollamos un nuevo esquema de color y logo con
+                <a href="http://www.schwadesign.com/">Schwadesign</a>.
+                Esto nos dio una base clara, atractiva y consistente
+                para todos nuestros recursos web en nuestro sitio web,
+                documentación, y la aplicación misma...
                 </p>
             </div>
             <a href="http://book.schooltool.org/2.0-release-notes.html"
                class="learn right">
-              learn more
+              lea más...
             </a>
           </div>
         </div>
         <div class="column">
           <h3>
-            How to get started.
+            Cómo empezar
           </h3>
           <div class="rounded clearfix">
-            <img src="images/box3.jpg" alt="How to get started photo"
+            <img src="images/box3.jpg" alt="Foto de Cómo empezar"
                  class="round" height="165" />
             <div class="content">
               <p>
-                The core development team supports one-click
-                installation of SchoolTool on
-                <a href="http://www.ubuntu.com/">Ubuntu Linux</a> through
-                the <a href="http://www.ubuntu.com/ubuntu/features/ubuntu-software-centre">Ubuntu Software Centre</a>.
+                El equipo base de desarrollo brinda una instalación de
+                SchoolTool con un sólo clic en
+                <a href="http://www.ubuntu.com/">Ubuntu Linux</a> mediante el
+                <a href="http://www.ubuntu.com/ubuntu/features/ubuntu-software-centre">Centro de Software de Ubuntu</a>.
               </p>
               <p>
-                If you are not already running Ubuntu, you can
-                <a href="http://www.ubuntu.com/download/ubuntu/download">download</a>
-                and install it, run it off a CD or USB drive, or even
-                <a href="http://www.ubuntu.com/download/ubuntu/windows-installer">run it alongside Windows</a>, all for free.
+                Si aún no usa Ubuntu, puede
+                <a href="http://www.ubuntu.com/download/ubuntu/download">descargarlo</a>
+                e instalarlo, correrlo desde un CD o un dispositivo
+                USB, e incluso
+                <a href="http://www.ubuntu.com/download/ubuntu/windows-installer">correrlo junto con Windows</a>, todo libremente.
               </p>
               <p>
-                <a href="http://fedoraproject.org/">Fedora Linux</a>
-                packages are provided to the community by <a
-                href="http://www.olenepal.org/">OLE Nepal</a>.
+                <a href="http://www.olenepal.org/">OLE Nepal</a>
+                brinda a la comunidad paquetes para
+                <a href="http://fedoraproject.org/">Fedora Linux</a>.
               </p>
               <p>
-                SchoolTool is also be available from and supported by
-                commercial vendors, such as
+                También existen compañías comerciales que brindan
+                soporte con SchoolTool, tales como
                 <a href="http://education.critical-links.com/">Critical
                 Links</a>.
               </p>
               <p>
-                SchoolTool can be hosted on a PC or server at the
-                school site, or a remote server in "the cloud."
+                SchoolTool puede ser instalado en una computadora
+                personal o un servidor en la escuela, o en un servidor
+                remoto en "la nube".
               </p>
             </div>
             <a href="http://book.schooltool.org/system-requirements.html"
                class="learn right">
-              learn more
+              lea más...
             </a>
           </div>
         </div>
         <div class="column">
           <h3>
-            Who uses SchoolTool?
+            ¿Quiénes usan SchoolTool?
           </h3>
           <div class="rounded clearfix">
-            <img src="images/box2.jpg" alt="Who uses SchoolTool? photo"
+            <img src="images/box2.jpg"
+                 alt="Foto de ¿Quiénes usan SchoolTool?"
                  class="round" height="165" />	
             <div class="content">
               <p>
-                SchoolTool is part of ambitious technology deployments
-                on six continents, such as:
+                SchoolTool es parte de implementaciones tecnológicas
+                ambiciosas en seis continentes, tales como:
               </p>
               <ul class="uses">
                 <li>
-                  As a component of
-                  <a href="http://education.critical-links.com/">Critical
-                  Links' Education Appliance</a>, SchoolTool
-                  supports millions of Intel Classmate PC's in
-                  1-to-1 laptop initiatives.
+                  Como componente del 
+                  <a href="http://education.critical-links.com/">Education
+                  Appliance de Critical Links</a>, SchoolTool
+                  es usado por millones de computadoras Intel
+                  Classmate en iniciativas de laptops 1-a-1.
                 </li>
                 <li>
                   <a href="http://www.olenepal.org/">OLE Nepal</a>
-                  is piloting SchoolTool as part of their One Laptop
-                  Per Child XO laptop sites (as pictured above).
+                  está evaluando SchoolTool como parte de sus
+                  implementaciones del proyecto Una Laptop por Niño
+                  (OLPC) (como se muestra arriba).
                 </li>
                 <li>
-                  <a href="http://www.open.org.kh/">The Open
-                  Institute</a> and SchoolTool have developed a
-                  custom version as part of Cambodia's Master Plan
-                  for ICT in Education.
+                  <a href="http://www.open.org.kh/">El Open
+                  Institute</a> y SchoolTool han desarrollado una versión
+                  personalizada como parte del Plan Maestro de
+                  Eduación en TIC de Camboya.
                 </li>
                 <li>
-                  <a href="http://www.cteresource.org/">The Virginia
-                  CTE Resource Center</a> supports 50 sites using
-                  CanDo, a locally developed SchoolTool add-on for
-                  competency tracking.
+                  <a href="http://www.cteresource.org/">El Virginia
+                  CTE Resource Center</a> da apoyo a 50 centros que utilizan
+                  CanDo, un componente de SchoolTool desarrollado
+                  localmente para rastreo de competencias.
                 </li>
               </ul>
             </div>
@@ -360,21 +372,21 @@
   	<img src="images/logo_on_white.jpg" alt="Logo" class="right" />
   	<p>
           <small>
-            &copy; The Shuttleworth Foundation 2003 - 2011: Supporting
-            exceptional people to change the world.
+            &copy; La Fundación Shuttleworth 2003 - 2011: Apoyando a
+            gente excepcional para cambiar el mundo.
           </small>
         </p>
   	<p>
           <small>
-            SchoolTool&reg; is a trademark of the Shuttleworth
-            Foundation.
+            SchoolTool&reg; es una marca registrada de la Fundación
+            Shuttleworth.
           </small>
         </p>
   	<p>
           <small>
-            Intel&reg; is a trademark of Intel Corporation. Critical
-            Links' Education Appliance&trade; is a trademark of
-            Critical Links.
+            Intel&reg; es una marca regisrada de Intel
+            Corporation. Education Appliance&trade; es una marca
+            registrada de Critical Links.
           </small>
         </p>
       </div>
