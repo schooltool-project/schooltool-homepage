@@ -1,3 +1,11 @@
+h4 {
+    margin-bottom: 0.5em;
+}
+
 section#main .rounded {
-    min-height: 430px;
+    min-height: 450px;
+}
+
+section#main .column a.learn {
+  top: 590px;
 }
