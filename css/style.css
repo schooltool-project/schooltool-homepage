@@ -251,6 +251,7 @@ h6{font-size:1em;}
 
 section#main .rounded {
     min-height: 380px;
+    padding-top: 165px;
 }
 
 section#main .column .content {
