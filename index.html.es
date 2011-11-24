@@ -73,6 +73,8 @@
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700,500italic,700italic" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css"
           media="screen" />
+    <link rel="stylesheet" href="css/style-es.css" type="text/css"
+          media="screen" />
     <link rel="stylesheet" href="css/themes/default/default.css"
           type="text/css" media="screen" />
     <link rel="stylesheet" href="css/nivo-slider.css" type="text/css"
@@ -274,7 +276,7 @@
             </div>
             <a href="http://book.schooltool.org/2.0-release-notes.html"
                class="learn right">
-              lea más...
+              lea más
             </a>
           </div>
         </div>
@@ -318,7 +320,7 @@
             </div>
             <a href="http://book.schooltool.org/system-requirements.html"
                class="learn right">
-              lea más...
+              lea más
             </a>
           </div>
         </div>
