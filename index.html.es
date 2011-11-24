@@ -79,10 +79,39 @@
           type="text/css" media="screen" />
     <link rel="stylesheet" href="css/nivo-slider.css" type="text/css"
           media="screen" />
-    <!--
-        all JS is at the bottom of the page, except for Modernizr.
-    -->
-    <script src="js/modernizr-1.7.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.2.6.js"></script>
+    <script type="text/javascript">
+      function hasBorderRadius() {
+        var d = document.createElement("div").style;
+        if (typeof d.borderRadius !== "undefined") return true;
+        if (typeof d.WebkitBorderRadius !== "undefined") return true;
+        if (typeof d.MozBorderRadius !== "undefined") return true;
+        return false;
+      };
+      $(document).ready(function () {
+        $('#slider').nivoSlider({
+          effect: 'fade',
+          captionOpacity: .9,
+          controlNav: false,
+          pauseTime: 10000,
+          borderRadius: 10,
+          directionNavHide: false,
+        });
+        if (hasBorderRadius()) {
+          $(".rounded").each(function(){
+            var img = $(this).children("img");
+            var imgSrc = img.attr("src");
+            var imgHeight = img.height();
+            var imgWidth = img.width();
+            $(this).css("background-image", "url(" + imgSrc + ")")
+              .css("background-repeat","no-repeat")
+              .css("padding-top", imgHeight + "px");
+            img.remove();
+          });
+        }
+      });
+    </script>
   </head>
   <body>
     <header>
@@ -393,10 +422,5 @@
         </p>
       </div>
     </footer>
-    <!-- Load Javascript -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script>
-    <script type="text/javascript" src="js/jquery.nivo.slider.2.6.js"></script>
-    <script src="js/functions.js"></script>
   </body>
 </html>
