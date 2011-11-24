@@ -5,249 +5,384 @@
 <!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <!-- the "no-js" class is for Modernizr. -->
-
-<head id="www-schooltool-org" data-template-set="html5-reset">
-
-	<meta charset="utf-8">
-	
-	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	
-	<title>SchoolTool</title>
-	
-	<meta name="title" content="SchoolTool">
-	<meta name="description" content="SchoolTool">
-	<!-- Google will often use this as its description of your page/site. Make it good. -->
-	
-	<meta name="google-site-verification" content="">
-	<!-- Speaking of Google, don't forget to set your site up: http://google.com/webmasters -->
-	
-	<meta name="author" content="SchoolTool">
-	<meta name="Copyright" content="Copyright SchoolTool 2011. All Rights Reserved.">
-
-	<!-- Dublin Core Metadata : http://dublincore.org/ -->
-	<meta name="DC.title" content="SchoolTool">
-	<meta name="DC.subject" content="SchoolTool">
-	<meta name="DC.creator" content="SchoolTool">
-	
-	<!--  Mobile Viewport Fix
-	j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag 
-	device-width : Occupy full width of the screen in its current orientation
-	initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
-	maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
-	-->
-	<!-- Uncomment to use; use thoughtfully!
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	-->
-
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<!-- This is the traditional favicon.
-		 - size: 16x16 or 32x32
-		 - transparency is OK
-		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
-	
-	 
-	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-	<!-- The is the icon for iOS's Web Clip.
-		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
-		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
-		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
-	
-	<!-- CSS: screen, mobile & print are all in the same file -->
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700,500italic,700italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/themes/default/default.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
-  
-	
-	<!-- all JS is at the bottom of the page, except for Modernizr. -->
-	<script src="js/modernizr-1.7.min.js"></script>
-
-</head>
-
-<body>
-	<header>
-	  <a href="#">
-
-            <span class="logo">
-      <span class="school">school</span><span class="tool">tool</span>
-      <img border="0" src="images/logo-small.png" />
-            </span>
-</a>
-		<nav id="main">
-			<ol>
-				<li><a href="http://book.schooltool.org/features.html">Features</a></li>
-				<li><a href="http://launchpad.net/schooltool-project/+announcements">News</a></li>
-				<li><a href="http://book.schooltool.org/screenshots.html">Screenshots</a></li>
-				<li><a href="http://book.schooltool.org/system-requirements.html">Download</a></li>
-				<li class="last"><a href="http://book.schooltool.org/">Documentation</a></li>
-			</ol>
-		</nav>
-	</header>
-
-<div class="wrapper">  <!-- Start Content Wrapper -->
-  
-  <!-- Search Bar -->
-  <div id="search-box">
-    <form class="search-form" id="google-appliance-search-form" method="get" accept-charset="UTF-8" action="http://book.schooltool.org/search.html">
-      <div>
-        <div id="edit-keys-wrapper" class="form-item">
-          <input type="text" class="form-text" onfocus="if(this.value=='Type to search'){this.value=''}" onblur="if(this.value==''){this.value='Type to search';}" value="Type to search" size="20" id="edit-keys" name="q" maxlength="255" />
-            <input type="hidden" value="yes" name="check_keywords" />
-            <input type="hidden" value="default" name="area" />
-        </div>
-        <img src="images/arrow.png" class="form-submit" onclick="$(this).closest('form').submit()" style="cursor: pointer" />
-        
-      </div>
-    </form>
-  </div>
-  <!-- End Search Bar -->
-
-	
-	<section class="clearfix">
-	 	<div class="column">
-  		<h1>SchoolTool: the Global Student Information System</h1>
+  <head id="www-schooltool-org" data-template-set="html5-reset">
+    <meta charset="utf-8" />
+    <!--
+        Always force latest IE rendering engine (even in intranet) &
+        Chrome Frame
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>SchoolTool</title>
+    <meta name="title" content="SchoolTool" />
+    <meta name="description" content="SchoolTool" />
+    <!--
+        Google will often use this as its description of your
+        page/site. Make it good.
+    -->
+    <meta name="google-site-verification"
+          content="dJ_BTaiXUXPT2wtI5p4nYnwmLfDwp4pwMf5jgqxvnW8" />
+    <!--
+        Speaking of Google, don't forget to set your site up:
+        http://google.com/webmasters
+    -->
+    <meta name="author" content="SchoolTool" />
+    <meta name="Copyright"
+          content="Copyright SchoolTool 2011. All Rights Reserved." />
+    <!--
+        Dublin Core Metadata : http://dublincore.org/
+    -->
+    <meta name="DC.title" content="SchoolTool" />
+    <meta name="DC.subject" content="SchoolTool" />
+    <meta name="DC.creator" content="SchoolTool" />
+    <!--
+        Mobile Viewport Fix
+        j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
+        device-width : Occupy full width of the screen in its current
+        orientation
+        initial-scale = 1.0 retains dimensions instead of zooming out
+        if page height > device height
+        maximum-scale = 1.0 retains dimensions instead of zooming in
+        if page width < device width
+    -->
+    <!--
+        Uncomment to use; use thoughtfully!
+	<meta name="viewport"
+              content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!--
+        This is the traditional favicon.
+        - size: 16x16 or 32x32
+        - transparency is OK
+        - see wikipedia for info on browser support: http://mky.be/favicon/
+    -->
+    <!--
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+        The is the icon for iOS's Web Clip.
+        - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for
+        iPhone4's retina display (IMHO, just go ahead and use the
+        biggest one)
+        - To prevent iOS from applying its styles to the icon name it
+        thusly: apple-touch-icon-precomposed.png
+        - Transparency is not recommended (iOS will put a black BG
+        behind the icon)
+    -->
+    <!--
+        CSS: screen, mobile & print are all in the same file
+    -->
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700,500italic,700italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css"
+          media="screen" />
+    <link rel="stylesheet" href="css/themes/default/default.css"
+          type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css"
+          media="screen" />
+    <!--
+        all JS is at the bottom of the page, except for Modernizr.
+    -->
+    <script src="js/modernizr-1.7.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="http://www.schooltool.org">
+        <span class="logo">
+          <span class="school">school</span><span class="tool">tool</span>
+          <img src="images/logo-small.png" alt="Logo" />
+        </span>
+      </a>
+      <nav class="main">
+        <ol>
+          <li>
+            <a href="http://book.schooltool.org/features.html">
+              Features
+            </a>
+          </li>
+          <li>
+            <a href="http://launchpad.net/schooltool-project/+announcements">
+              News
+            </a>
+          </li>
+          <li>
+            <a href="http://book.schooltool.org/screenshots.html">
+              Screenshots
+            </a>
+          </li>
+          <li>
+            <a href="http://book.schooltool.org/system-requirements.html">
+              Download
+            </a>
+          </li>
+          <li class="last">
+            <a href="http://book.schooltool.org/">
+              Documentation
+            </a>
+          </li>
+        </ol>
+      </nav>
+    </header>
+    <div class="wrapper"><!-- Start Content Wrapper -->
+      <div id="search-box"><!-- Search Bar -->
+        <form class="search-form" id="google-appliance-search-form"
+              method="get" accept-charset="UTF-8"
+              action="http://book.schooltool.org/search.html">
+          <div>
+            <div id="edit-keys-wrapper" class="form-item">
+              <input type="text" class="form-text"
+                     onfocus="if(this.value=='Type to search'){this.value=''}"
+                     onblur="if(this.value==''){this.value='Type to search';}"
+                     value="Type to search" size="20" id="edit-keys" name="q"
+                     maxlength="255" />
+              <input type="hidden" value="yes" name="check_keywords" />
+              <input type="hidden" value="default" name="area" />
+            </div>
+            <img src="images/arrow.png" class="form-submit"
+                 onclick="$(this).closest('form').submit()"
+                 style="cursor: pointer" alt="Search button"/>
+          </div>
+        </form>
+      </div><!-- End Search Bar -->
+      <section class="clearfix">
+        <div class="column">
+          <h1>
+            SchoolTool: the Global Student Information System
+          </h1>
   	</div>
-	</section>
-	
-  <br/>
-	
-	<section class="three columns clearfix">
-	  <div class="column span-2">   <!-- Start Slider -->
-	    <div class="slider-wrapper theme-default">
-          <div id="slider" class="nivoSlider">
-  
-            <!-- Add new images for the slider here -->
-            <img src="images/slide-1.png" alt="" title="#slide-1-caption" />
-            <img src="images/slide-3.png" alt="" title="#slide-3-caption" />
-            <img src="images/slide-5.png" alt="" title="#slide-5-caption" />
-            <img src="images/slide-2.png" alt="" title="#slide-2-caption" />
-            <img src="images/slide-4.png" alt="" title="#slide-4-caption" />
-              
+      </section>
+      <br />	
+      <section class="three columns clearfix">
+        <div class="column span-2"><!-- Start Slider -->
+          <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+              <!-- Add new images for the slider here -->
+              <img src="images/slide-1.png" alt="Gradebook slide"
+                   title="#slide-1-caption" />
+              <img src="images/slide-3.png" alt="Calendar slide"
+                   title="#slide-3-caption" />
+              <img src="images/slide-5.png" alt="Demographics slide"
+                   title="#slide-5-caption" />
+              <img src="images/slide-2.png" alt="Journal slide"
+                   title="#slide-2-caption" />
+              <img src="images/slide-4.png" alt="Intervention slide"
+                   title="#slide-4-caption" />
+            </div>
+            <!-- Gradebook slide image caption. -->
+            <div id="slide-1-caption" class="nivo-html-caption">
+              <p>
+                <strong class="title">Gradebook</strong>
+                <br />
+                Create and assess student assignments and activities,
+                calculate and report grades through SchoolTool's clean
+                web interface.
+              </p>
+            </div>
+            <!-- Journal slide image caption. -->
+            <div id="slide-2-caption" class="nivo-html-caption">
+              <p>
+                <strong class="title">Attendance Journal</strong>
+                <br />
+                Improve accountability with online attendance tracking
+                and daily class participation scores.
+              </p>
+            </div>
+            <!-- Calendar slide image caption. -->
+            <div id="slide-3-caption" class="nivo-html-caption">
+              <p>
+                <strong class="title">Calendar</strong>
+                <br />
+                SchoolTool creates a web-based calendar for every
+                person, group, class and resource. Use the calendar to
+                reserve rooms and other shared resources.
+              </p>
+            </div>
+            <!-- Intervention slide image caption. -->
+            <div id="slide-4-caption" class="nivo-html-caption">
+              <p>
+                <strong class="title">Intervention</strong>
+                <br />
+                Create and track student improvement plans
+                collaboratively between school staff and parents using
+                SchoolTool's Intervention system.
+              </p>
+            </div>
+            <!-- Demographics slide image caption. -->
+            <div id="slide-5-caption" class="nivo-html-caption">
+              <p>
+                <strong class="title">Demographics and Contacts</strong>
+                <br />
+                Store customizable personal data about students and
+                teachers.  Manage multiple adult contacts for each
+                child.
+              </p>
+            </div>
           </div>
-          
-          <!-- First slider image caption. -->
-          <div id="slide-1-caption" class="nivo-html-caption">
-            <p><strong class="title">Gradebook</strong><br/> Create and assess student assignments and activities, calculate and report grades through SchoolTool's clean web interface.</p>
+        </div><!-- End Slider -->  
+        <div class="column"><!-- Start Right Box -->
+          <div class="rounded clearfix">
+            <div class="content"  style="min-height: 235px">
+              <h4>
+                Free Administrative Software for Schools Around the World
+              </h4>
+              <p>
+                SchoolTool is an open source, web based student
+                information system designed for schools in the
+                developing world, with strong support for translation,
+                localization and automated deployment and updates via
+                the Ubuntu Linux installer and package management
+                system.
+              </p>
+            </div>
           </div>
-          
-          <!-- Send slider image caption. -->
-          <div id="slide-2-caption" class="nivo-html-caption">
-            <p><strong class="title">Attendance Journal</strong><br/> Improve accountability with online attendance tracking and daily class participation scores.</p>
+        </div><!-- End Right Box -->
+      </section>
+      <section class="three columns clearfix" id="main">
+        <div class="column">
+          <h3>
+            What's New?
+          </h3>
+          <div class="rounded clearfix">
+            <img src="images/box1.jpg" alt="What's New? photo" class="round"
+                 height="165" />
+            <div class="content">
+              <h5>
+                SchoolTool 2.0 Released!
+              </h5>
+              <p>
+                SchoolTool 2.0 represents a complete rethinking of
+                SchoolTool's web interface from the organization of
+                the application as a whole to the layout of each form
+                and button.
+              </p>
+              <p>
+                The staring point for the redesign was the Ubuntu Web
+                Design Guidelines and the free Ubuntu font, both
+                created by <a href="http://design.canonical.com/">Canonical
+                Design</a>. We developed a new color scheme and logo
+                with <a href="http://www.schwadesign.com/">Schwadesign</a>.
+                This gave us a clear, attractive and consistent
+                foundation for all our web assets across our homepage,
+                documentation, and the SchoolTool application
+                itself...
+                </p>
+            </div>
+            <a href="http://book.schooltool.org/2.0-release-notes.html"
+               class="learn right">
+              learn more
+            </a>
           </div>
-
-          <!-- Calendar slider image caption. -->
-          <div id="slide-3-caption" class="nivo-html-caption">
-            <p><strong class="title">Calendar</strong><br/> SchoolTool creates a web-based calendar for every person, group, class and resource. Use the calendar to reserve rooms and other shared resources.</p>
-          </div>
-
-          <!-- Intervention slider image caption. -->
-          <div id="slide-4-caption" class="nivo-html-caption">
-            <p><strong class="title">Intervention</strong><br/> Create and track student improvement plans collaboratively between school staff and parents using SchoolTool's Intervention system.</p>
-          </div>
-
-          <!-- Demographics slider image caption. -->
-          <div id="slide-5-caption" class="nivo-html-caption">
-            <p><strong class="title">Demographics and Contacts</strong><br/> Store customizable personal data about students and teachers.  Manage multiple adult contacts for each child.</p>
-          </div>
-          
-      </div>
-	  </div>  <!-- End Slider -->
-	  
-	   <div class="column">  <!-- Start Right Box -->
-  	   <div class="rounded clearfix">
-  	   <div class="content"  style="min-height: 235px">
-  	     <h4>Free Administrative Software for Schools Around the World</h4>
-    	   
-         <p>
-SchoolTool is an open source, web based student information system designed for schools in the developing world, with strong support for translation, localization 
-         and automated deployment and updates 
-         via the Ubuntu Linux installer and package management system.
-         </p>
-         </div>
-    	   </div>
-    	 </div> <!-- End Right Box -->
-	</section>
-	
-	<section class="three columns clearfix" id="main">
- 	 <div class="column">
- 	   <h3>What's New?</h3>
- 	   <div class="rounded clearfix">
- 	   <img src="images/box1.jpg" class="round" height="165">
- 	   <div class="content">
-             <h5>SchoolTool 2.0 Released!</h5>
-        <p>SchoolTool 2.0 represents a complete rethinking of SchoolTool's web interface from the organization of the application as a whole to the layout of each form and button.</p>
-        <p>
-The staring point for the redesign was the Ubuntu Web Design Guidelines and the free Ubuntu font, both created by <a href="http://design.canonical.com/">Canonical Design</a>.  We developed a new color scheme and logo with <a href="http://www.schwadesign.com/">Schwadesign</a>.  This gave us a clear, attractive and consistent foundation for all our web assets across our homepage, documentation, and the SchoolTool application itself...
-        </p>
         </div>
-         <a href="http://book.schooltool.org/2.0-release-notes.html" class="learn right">learn more</a>
-   	   </div>
-   	 </div>
-	 
-	 <div class="column">
-	   <h3>How to get started.</h3>
-	   <div class="rounded clearfix">
-	   <img src="images/box3.jpg" class="round" height="165">
-	   <div class="content">
-<p>
-The core development team supports one-click installation of SchoolTool on <a href="http://www.ubuntu.com/">Ubuntu Linux</a> through the <a href="http://www.ubuntu.com/ubuntu/features/ubuntu-software-centre">Ubuntu Software Centre</a>.</p>
-<p>If you are not already
-running Ubuntu, you can <a href="http://www.ubuntu.com/download/ubuntu/download">download</a> and install it, run it off a CD
-or USB drive, or even <a href="http://www.ubuntu.com/download/ubuntu/windows-installer">run it alongside Windows</a>, all for free.
-</p>
-<p>
-<a href="http://fedoraproject.org/">Fedora Linux</a> packages are provided to the community by
-<a href="http://www.olenepal.org/">OLE Nepal</a>.</p>
-<p>SchoolTool is also be available from and supported by
-commercial vendors, such as <a href="http://education.critical-links.com/">Critical Links</a>.
-</p>
-<p>
- SchoolTool can be hosted on a PC or server at the school site, or a remote server in "the cloud."</p>
-       </div>
-        <a href="http://book.schooltool.org/system-requirements.html" class="learn right">learn more</a>
-  	   </div>
-  	 </div>
-
-	 <div class="column">
-	   <h3>Who uses SchoolTool?</h3>
-	   <div class="rounded clearfix">
-	     <img src="images/box2.jpg" class="round" height="165">	
-	   <div class="content">
-       <p>SchoolTool is part of ambitious technology deployments on six
-continents, such as:<br />
-<ul class="uses">
-<li>As a component of <a href="http://education.critical-links.com/">Critical Links' Education Appliance</a>, SchoolTool
-supports millions of Intel Classmate PC's in 1-to-1 laptop initiatives.</li>
-<li><a href="http://www.olenepal.org/">OLE Nepal</a> is piloting SchoolTool as part of their One Laptop Per
-Child XO laptop sites (as pictured above).</li>
-<li><a href="http://www.open.org.kh/">The Open Institute</a> and SchoolTool have developed a custom
-version as part of Cambodia's Master Plan for ICT in Education.</li>
-<li><a href="http://www.cteresource.org/">The Virginia CTE Resource Center</a> supports
-50 sites using CanDo, a locally developed SchoolTool add-on for competency
-tracking.</li>
-       </ul></p>
-     </div>
-	   </div>
-	 </div>
-	</section>
-
-</div>  <!-- End Content Wrapper -->
-
-<footer>
-  <div class="column">
-  	<img src="images/logo_on_white.jpg" class="right">
-  	<p><small>&copy; The Shuttleworth Foundation 2003 - 2011: Supporting exceptional people to change the world.</small></p>
-  	<p><small>SchoolTool&reg; is a trademark of the Shuttleworth Foundation.</small></p>
-  	<p><small>Intel&reg; is a trademark of Intel Corporation. Critical Links' Education Appliance&trade; is a trademark of Critical Links.</small></p>
-  </div>
-</footer>
-
-<!-- Load Javascript -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script>window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script>
-<script type="text/javascript" src="js/jquery.nivo.slider.2.6.js"></script>
-<script src="js/functions.js"></script>
-
-</body>
+        <div class="column">
+          <h3>
+            How to get started.
+          </h3>
+          <div class="rounded clearfix">
+            <img src="images/box3.jpg" alt="How to get started photo"
+                 class="round" height="165" />
+            <div class="content">
+              <p>
+                The core development team supports one-click
+                installation of SchoolTool on
+                <a href="http://www.ubuntu.com/">Ubuntu Linux</a> through
+                the <a href="http://www.ubuntu.com/ubuntu/features/ubuntu-software-centre">Ubuntu Software Centre</a>.
+              </p>
+              <p>
+                If you are not already running Ubuntu, you can
+                <a href="http://www.ubuntu.com/download/ubuntu/download">download</a>
+                and install it, run it off a CD or USB drive, or even
+                <a href="http://www.ubuntu.com/download/ubuntu/windows-installer">run it alongside Windows</a>, all for free.
+              </p>
+              <p>
+                <a href="http://fedoraproject.org/">Fedora Linux</a>
+                packages are provided to the community by <a
+                href="http://www.olenepal.org/">OLE Nepal</a>.
+              </p>
+              <p>
+                SchoolTool is also be available from and supported by
+                commercial vendors, such as
+                <a href="http://education.critical-links.com/">Critical
+                Links</a>.
+              </p>
+              <p>
+                SchoolTool can be hosted on a PC or server at the
+                school site, or a remote server in "the cloud."
+              </p>
+            </div>
+            <a href="http://book.schooltool.org/system-requirements.html"
+               class="learn right">
+              learn more
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <h3>
+            Who uses SchoolTool?
+          </h3>
+          <div class="rounded clearfix">
+            <img src="images/box2.jpg" alt="Who uses SchoolTool? photo"
+                 class="round" height="165" />	
+            <div class="content">
+              <p>
+                SchoolTool is part of ambitious technology deployments
+                on six continents, such as:
+              </p>
+              <ul class="uses">
+                <li>
+                  As a component of
+                  <a href="http://education.critical-links.com/">Critical
+                  Links' Education Appliance</a>, SchoolTool
+                  supports millions of Intel Classmate PC's in
+                  1-to-1 laptop initiatives.
+                </li>
+                <li>
+                  <a href="http://www.olenepal.org/">OLE Nepal</a>
+                  is piloting SchoolTool as part of their One Laptop
+                  Per Child XO laptop sites (as pictured above).
+                </li>
+                <li>
+                  <a href="http://www.open.org.kh/">The Open
+                  Institute</a> and SchoolTool have developed a
+                  custom version as part of Cambodia's Master Plan
+                  for ICT in Education.
+                </li>
+                <li>
+                  <a href="http://www.cteresource.org/">The Virginia
+                  CTE Resource Center</a> supports 50 sites using
+                  CanDo, a locally developed SchoolTool add-on for
+                  competency tracking.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div><!-- End Content Wrapper -->
+    <footer>
+      <div class="column">
+  	<img src="images/logo_on_white.jpg" alt="Logo" class="right" />
+  	<p>
+          <small>
+            &copy; The Shuttleworth Foundation 2003 - 2011: Supporting
+            exceptional people to change the world.
+          </small>
+        </p>
+  	<p>
+          <small>
+            SchoolTool&reg; is a trademark of the Shuttleworth
+            Foundation.
+          </small>
+        </p>
+  	<p>
+          <small>
+            Intel&reg; is a trademark of Intel Corporation. Critical
+            Links' Education Appliance&trade; is a trademark of
+            Critical Links.
+          </small>
+        </p>
+      </div>
+    </footer>
+    <!-- Load Javascript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write("<script src='js/jquery-1.5.1.min.js'>\x3C/script>")</script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.2.6.js"></script>
+    <script src="js/functions.js"></script>
+  </body>
 </html>

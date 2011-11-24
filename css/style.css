@@ -269,24 +269,24 @@ section#main .column a.learn {
   right: 20px;
 }
 
-nav#main{
+nav.main{
   height: 64px;
 }
 
 /* Main navigation */
-nav#main ol{
+nav.main ol{
   background: none;
   list-style: none; 
   margin-left: 9px;
 }
-nav#main ol li{ 
+nav.main ol li{ 
   background: none;
   float:left;
   padding: 0 1px;
 }
-nav#main ol li.last{ 
+nav.main ol li.last{ 
 }
-nav#main ol li a{
+nav.main ol li a{
   background: none;
   display: block;
   color: #fff;
@@ -294,7 +294,7 @@ nav#main ol li a{
   font-size: 14px;
   line-height: 16px;
 }
-nav#main ol li a:hover{ 
+nav.main ol li a:hover{ 
   background: #026B6E;
 }
 section#main {
@@ -325,6 +325,7 @@ header .logo {
 
 header .logo img {
     vertical-align: top;
+    border: none;
 }
 
 header .logo .school {
