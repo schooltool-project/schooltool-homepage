@@ -140,9 +140,9 @@
           <div>
             <div id="edit-keys-wrapper" class="form-item">
               <input type="text" class="form-text"
-                     onfocus="if(this.value=='Buscar aquí'){this.value=''}"
-                     onblur="if(this.value==''){this.value='Buscar aquí';}"
-                     value="Type to search" size="20" id="edit-keys" name="q"
+                     onfocus="if(this.value=='Busque aquí'){this.value=''}"
+                     onblur="if(this.value==''){this.value='Busque aquí';}"
+                     value="Busque aquí" size="20" id="edit-keys" name="q"
                      maxlength="255" />
               <input type="hidden" value="yes" name="check_keywords" />
               <input type="hidden" value="default" name="area" />
