@@ -256,15 +256,15 @@ section#main .rounded {
 }
 
 #whats-new {
-    background-image: url('images/box1.jpg');
+    background-image: url('../images/box1.jpg');
 }
 
 #how-to-get-started {
-    background-image: url('images/box3.jpg');
+    background-image: url('../images/box3.jpg');
 }
 
 #who-uses-schooltool {
-    background-image: url('images/box2.jpg');
+    background-image: url('../images/box2.jpg');
 }
 section#main .column .content {
     padding-top: 20px;
