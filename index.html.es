@@ -12,9 +12,9 @@
         Chrome Frame
     -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>SchoolTool</title>
+    <title>SchoolTool: el Sistema Global de Información Estudiantil</title>
     <meta name="title" content="SchoolTool" />
-    <meta name="description" content="SchoolTool" />
+    <meta name="description" content="SchoolTool es un sistema web de información estudiantil libre y de código abierto diseñado para escuelas alrededor del mundo, con gran soporte de traducción, localización, instalación y actualizació automática mediante el instalador y el sistema de administración de paquetes de de Ubuntu Linux." />
     <!--
         Google will often use this as its description of your
         page/site. Make it good.
@@ -27,7 +27,7 @@
     -->
     <meta name="author" content="SchoolTool" />
     <meta name="Copyright"
-          content="Copyright SchoolTool 2011. All Rights Reserved." />
+          content="Copyright (c) La Fundación Shuttleworth 2003 - 2011" />
     <!--
         Dublin Core Metadata : http://dublincore.org/
     -->
