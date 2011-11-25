@@ -103,6 +103,11 @@
       <nav class="main">
         <ol>
           <li>
+            <a href="http://www.schooltool.org">
+              Home
+            </a>
+          </li>
+          <li>
             <a href="http://book.schooltool.org/features.html">
               Features
             </a>
