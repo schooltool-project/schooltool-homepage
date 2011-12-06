@@ -282,8 +282,26 @@ section#main .column a.learn {
   right: 20px;
 }
 
+section#main .column .rounded {
+  -webkit-box-shadow: 8px 5px 5px -5px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 8px 5px 5px -5px rgba(0, 0, 0, .5);
+  box-shadow: 8px 5px 5px -5px rgba(0, 0, 0, .5);
+}
+
+#slider {
+  -webkit-box-shadow: 8px 5px 5px -5px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 8px 5px 5px -5px rgba(0, 0, 0, .5);
+  box-shadow: 8px 5px 5px -5px rgba(0, 0, 0, .5);
+}
+
 nav.main{
   height: 64px;
+}
+
+.three .column .rounded {
+  -webkit-box-shadow: 8px 5px 5px -5px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 8px 5px 5px -5px rgba(0, 0, 0, .5);
+  box-shadow: 8px 5px 5px -5px rgba(0, 0, 0, .5);
 }
 
 /* Main navigation */
