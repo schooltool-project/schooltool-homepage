@@ -105,12 +105,12 @@
       <nav class="main">
         <ol>
           <li>
-            <a href="http://www.schooltool.org">
+            <a href="http://www.schooltool.org/index.html.es">
               Inicio
             </a>
           </li>
           <li>
-            <a href="http://book.schooltool.org/features.html">
+            <a href="http://book.schooltool.org/es/features.html">
               Características
             </a>
           </li>
@@ -120,17 +120,17 @@
             </a>
           </li>
           <li>
-            <a href="http://book.schooltool.org/screenshots.html">
+            <a href="http://book.schooltool.org/es/screenshots.html">
               Pantallazos
             </a>
           </li>
           <li>
-            <a href="http://book.schooltool.org/system-requirements.html">
+            <a href="http://book.schooltool.org/es/system-requirements.html">
               Descargar
             </a>
           </li>
           <li class="last">
-            <a href="http://book.schooltool.org/">
+            <a href="http://book.schooltool.org/es/">
               Documentación
             </a>
           </li>
@@ -286,7 +286,7 @@
                 documentación, y la aplicación misma...
                 </p>
             </div>
-            <a href="http://book.schooltool.org/2.0-release-notes.html"
+            <a href="http://book.schooltool.org/es/2.0-release-notes.html"
                class="learn right">
               lea más
             </a>
@@ -328,7 +328,7 @@
                 remoto en "la nube".
               </p>
             </div>
-            <a href="http://book.schooltool.org/system-requirements.html"
+            <a href="http://book.schooltool.org/es/system-requirements.html"
                class="learn right">
               lea más
             </a>
