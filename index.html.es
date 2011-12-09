@@ -141,7 +141,7 @@
       <div id="search-box"><!-- Search Bar -->
         <form class="search-form" id="google-appliance-search-form"
               method="get" accept-charset="UTF-8"
-              action="http://book.schooltool.org/search.html">
+              action="http://book.schooltool.org/es/search.html">
           <div>
             <div id="edit-keys-wrapper" class="form-item">
               <input type="text" class="form-text"
