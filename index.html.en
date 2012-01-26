@@ -27,7 +27,7 @@
     -->
     <meta name="author" content="SchoolTool" />
     <meta name="Copyright"
-          content="Copyright (c) The Shuttleworth Foundation 2003 - 2011" />
+          content="Copyright (c) The Shuttleworth Foundation 2003 - 2012" />
     <!--
         Dublin Core Metadata : http://dublincore.org/
     -->
@@ -369,7 +369,7 @@
   	<img src="images/logo_on_white.jpg" alt="Logo" class="right" />
   	<p>
           <small>
-            &copy; The Shuttleworth Foundation 2003 - 2011: Supporting
+            &copy; The Shuttleworth Foundation 2003 - 2012: Supporting
             exceptional people to change the world.
           </small>
         </p>
