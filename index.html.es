@@ -129,9 +129,14 @@
               Descargar
             </a>
           </li>
-          <li class="last">
+          <li>
             <a href="http://book.schooltool.org/es/">
               Documentación
+            </a>
+          </li>
+          <li class="last">
+            <a href="http://book.schooltool.org/es/about.html">
+              Contacto
             </a>
           </li>
         </ol>
