@@ -374,14 +374,15 @@ header .logo .tool {
 footer{
 	margin-left: auto;
 	margin-right: auto;
-	width: 976px;
+	width: 958px;
 	background: #fff;
 	padding: 18px 9px;
 	font-size: 90%;
 }
 footer img.right { margin-right: 9px;}
-
-
+footer .column {
+    background-color: #fff;
+}
 
 /* Print styles!
 -------------------------------------------------------------------------------*/
