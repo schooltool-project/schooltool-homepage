@@ -381,9 +381,8 @@
         </div>
       </section>
     </div><!-- End Content Wrapper -->
-    <footer>
+    <footer class="clearfix">
       <div class="column">
-  	<img src="images/logo_on_white.jpg" alt="Logo" class="right" />
   	<p>
           <small>
             &copy; La Fundación Shuttleworth 2003 - 2012: Apoyando a

@@ -369,9 +369,8 @@
         </div>
       </section>
     </div><!-- End Content Wrapper -->
-    <footer>
+    <footer class="clearfix">
       <div class="column">
-  	<img src="images/logo_on_white.jpg" alt="Logo" class="right" />
   	<p>
           <small>
             &copy; The Shuttleworth Foundation 2003 - 2012: Supporting
