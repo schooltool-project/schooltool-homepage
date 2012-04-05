@@ -156,7 +156,11 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 
 body {
   min-width: 882px;
-  background: #ffffff;
+  background-color: #ffffff;
+  background-image: url('../images/hexes.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
 }
 h1{font-size:34px; font-weight: lighter; margin-top: 0.5em;}
 h2{font-size:1em;}
