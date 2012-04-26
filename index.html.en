@@ -262,30 +262,20 @@
           <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
-                SchoolTool 2.0 Released!
+                SchoolTool 2.1 Lands in the Ubuntu 12.04 LTS Universe
               </h5>
-              <p>
-                SchoolTool 2.0 represents a complete rethinking of
-                SchoolTool's web interface from the organization of
-                the application as a whole to the layout of each form
-                and button.
-              </p>
-              <p>
-                The staring point for the redesign was the Ubuntu Web
-                Design Guidelines and the free Ubuntu font, both
-                created by <a href="http://design.canonical.com/">Canonical
-                Design</a>. We developed a new color scheme and logo
-                with <a href="http://www.schwadesign.com/">Schwadesign</a>.
-                This gave us a clear, attractive and consistent
-                foundation for all our web assets across our homepage,
-                documentation, and the SchoolTool application
-                itself...
-                </p>
+              <p>Last November, the SchoolTool development team released SchoolTool 2.0, a complete re-thinking of our student information system, emphasizing clarity and efficiency.  SchoolTool 2.1 brings these improvements to users of Ubuntu 12.04 LTS (Precise Pangolin).</p>  
+
+             <p>SchoolTool 2.1 is primarily a stability and bugfix release.  New features include:</p>
+
+              <ul class="uses">
+                <li>ID photos for people.</li>
+                <li>Printable photo ID templates.</li>
+                <li>Improved person search.</li>
+                <li>Standard sets of gradebook activites for courses.</li>
+              </ul>
             </div>
-            <a href="http://book.schooltool.org/2.0-release-notes.html"
-               class="learn right">
-              learn more
-            </a>
+
           </div>
         </div>
         <div class="column">
