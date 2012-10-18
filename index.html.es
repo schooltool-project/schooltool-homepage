@@ -176,6 +176,8 @@
           <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
               <!-- Add new images for the slider here -->
+              <img src="images/slide-0.png" alt="Skills slide"
+                   title="#slide-0-caption" />
               <img src="images/slide-1.png"
                    alt="Diapositiva del cuadro de notas"
                    title="#slide-1-caption" />
@@ -191,6 +193,16 @@
               <img src="images/slide-4.png"
                    alt="Diapositiva de intervenciones"
                    title="#slide-4-caption" />
+            </div>
+            <!-- Skills slide image caption. -->
+            <div id="slide-0-caption" class="nivo-html-caption">
+              <p>
+                <strong class="title">Competencias y Resultados</strong>
+                <br />
+                Organice y registre los logros de los estudiantes en
+                conjuntos complejos de competencias, resultados o
+                estándares mediante CanDo.
+              </p>
             </div>
             <!-- Gradebook slide image caption. -->
             <div id="slide-1-caption" class="nivo-html-caption">
