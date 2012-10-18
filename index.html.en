@@ -273,20 +273,30 @@
           <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
-                SchoolTool 2.1 Lands in the Ubuntu 12.04 LTS Universe
+                SchoolTool 2.3 Adds Skill Tracking
               </h5>
-              <p>Last November, the SchoolTool development team released SchoolTool 2.0, a complete re-thinking of our student information system, emphasizing clarity and efficiency.  SchoolTool 2.1 brings these improvements to users of Ubuntu 12.04 LTS (Precise Pangolin).</p>  
-
-             <p>SchoolTool 2.1 is primarily a stability and bugfix release.  New features include:</p>
-
-              <ul class="uses">
-                <li>ID photos for people.</li>
-                <li>Printable photo ID templates.</li>
-                <li>Improved person search.</li>
-                <li>Standard sets of gradebook activites for courses.</li>
-              </ul>
+              <p>
+                With SchoolTool 2.3, schools can organize and track
+                complex sets of skills, outcomes or standards.
+              </p>
+              <p>
+                Since 2005, SchoolTool developers have collaborated
+                with educators at the Arlington Career Center and
+                Virginia Career and Technical Education Resource
+                Center on CanDo, an application to support their
+                complex skill tracking requirements in schools across
+                the commonwealth.
+              </p>
+              <p>
+                This year we completely re-wrote CanDo to make it
+                equally useful to schools outside of Virginia, and
+                bring it date with SchoolTool's updated design.
+              </p>
             </div>
-
+            <a href="http://book.schooltool.org/2.3-release-notes.html"
+               class="learn right">
+              learn more
+            </a>
           </div>
         </div>
         <div class="column">
@@ -348,21 +358,21 @@
                   1-to-1 laptop initiatives.
                 </li>
                 <li>
-                  <a href="http://www.olenepal.org/">OLE Nepal</a>
-                  is piloting SchoolTool as part of their One Laptop
-                  Per Child XO laptop sites (as pictured above).
-                </li>
-                <li>
-                  <a href="http://www.open.org.kh/">The Open
-                  Institute</a> and SchoolTool have developed a
-                  custom version as part of Cambodia's Master Plan
-                  for ICT in Education.
-                </li>
-                <li>
                   <a href="http://www.cteresource.org/">The Virginia
                   CTE Resource Center</a> supports 50 sites using
-                  CanDo, a locally developed SchoolTool add-on for
-                  competency tracking.
+                  CanDo to manage competency tracking.
+                </li>
+                <li>
+                  The <a href="http://www.fabacademy.org/">Fab
+                  Academy</a> is using SchoolTool for their global
+                  digital fabrication program's class of 2013.
+                </li>
+                <li>
+                  <a href="http://www.vcuautismcenter.org/index.cfm">The
+                  Virginia Commonwealth University's Autism Center for
+                  Excellence</a> is using SchoolTool to track social
+                  skills development in individuals with autism
+                  spectrum disorders.
                 </li>
               </ul>
             </div>

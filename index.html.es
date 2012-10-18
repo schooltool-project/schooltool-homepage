@@ -283,27 +283,28 @@
           <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
-                ¡SchoolTool 2.0 Listo!
+                SchoolTool 2.3 trae Registro de Competencias
               </h5>
               <p>
-                SchoolTool 2.0 representa una restructuración completa
-                de la interfaz web del usuario desde la organización
-                de la aplicación como un todo hasta el diseño de cada
-                formulario y botón.
+                Con SchoolTool 2.3, las escuelas pueden organizar y
+                registrar conjuntos complejos de competencias,
+                resultados o estándares.
               </p>
               <p>
-                El punto de partida para el rediseño fueron las
-                Directrices de Diseño Web de Ubuntu y la fuente libre
-                Ubuntu, ambas creadas por
-                <a href="http://design.canonical.com/">Canonical
-                Design</a>. Desarrollamos un nuevo esquema de color y logo con
-                <a href="http://www.schwadesign.com/">Schwadesign</a>.
-                Esto nos dio una base clara, atractiva y consistente
-                para todos nuestros recursos web en nuestro sitio web,
-                documentación, y la aplicación misma...
-                </p>
+                Desde 2005, el equipo de desarrollo de SchoolTool ha
+                colaborado con educadores del Centro Vocacional de
+                Arlington y del Technical Education Resource Center en
+                CanDo, una aplicación para dar apoyo a sus necesidades
+                complejas de registro de competencias en las escuelas
+                del condado.
+              </p>
+              <p>
+                Este año hemos reescrito CanDo completamente para
+                hacerlo útil a escuelas fuera de Virginia y
+                actualizarlo con el nuevo diseño de SchoolTool.
+              </p>
             </div>
-            <a href="http://book.schooltool.org/es/2.0-release-notes.html"
+            <a href="http://book.schooltool.org/2.3-release-notes.html"
                class="learn right">
               lea más
             </a>
@@ -370,22 +371,21 @@
                   Classmate en iniciativas de laptops 1-a-1.
                 </li>
                 <li>
-                  <a href="http://www.olenepal.org/">OLE Nepal</a>
-                  está evaluando SchoolTool como parte de sus
-                  implementaciones del proyecto Una Laptop por Niño
-                  (OLPC) (como se muestra arriba).
-                </li>
-                <li>
-                  <a href="http://www.open.org.kh/">El Open
-                  Institute</a> y SchoolTool han desarrollado una versión
-                  personalizada como parte del Plan Maestro de
-                  Eduación en TIC de Camboya.
-                </li>
-                <li>
                   <a href="http://www.cteresource.org/">El Virginia
                   CTE Resource Center</a> da apoyo a 50 centros que utilizan
-                  CanDo, un componente de SchoolTool desarrollado
-                  localmente para rastreo de competencias.
+                  CanDo para registrar competencias.
+                </li>
+                <li>
+                  La <a href="http://www.fabacademy.org/">Fab
+                  Academy</a> usará SchoolTool para sus clases del
+                  programa global de fabricación digital de 2013.
+                </li>
+                <li>
+                  El <a href="http://www.vcuautismcenter.org/index.cfm">
+                  Virginia Commonwealth University's Autism Center for
+                  Excellence</a> usa SchoolTool para registrar
+                  competencias sociales en individuos con desordenes
+                  del espectro del autismo.
                 </li>
               </ul>
             </div>
