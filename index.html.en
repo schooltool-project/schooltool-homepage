@@ -273,28 +273,13 @@
           <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
-                SchoolTool 2.3 Adds Skill Tracking
+                SchoolTool Featured on OpenSource.com
               </h5>
-              <p>
-                With SchoolTool 2.3, schools can organize and track
-                complex sets of skills, outcomes or standards.
-              </p>
-              <p>
-                Since 2005, SchoolTool developers and educators
-                in Virginia have collaborated to manage complex 
-                skill tracking requirements in schools across
-                the commonwealth using a SchoolTool module called
-                CanDo.
-              </p>
-              <p>
-                This year we completely re-wrote CanDo to make it
-                equally useful to schools outside of Virginia, and
-                bring it up to date with SchoolTool's updated design.
-              </p>
+             <p>In 2005, <a title="Arlington Career Center" href="http://www.apsva.us/Domain/1964" target="_blank">Arlington Career Center</a> teacher David Welsh had an unmanageable list of <a title="video and media tech competencies" href="http://www.cteresource.org/verso/courses/8497/video-and-media-technology-tasklist" target="_blank">77 Video and Media Technology competencies</a> to evaluate for each student in his classes. Yorktown High School computer science teacher Jeff Elkner was teaching his students to program in Python and bursting with enthusiasm for engaging students and teachers in open source processes. I had a new job leading the <a title="SchoolTool" href="http://schooltool.org" target="_blank">SchoolTool</a> project with a charge from entrepreneur and philanthropist <a title="Mark Shuttleworth" href="http://www.markshuttleworth.com/" target="_blank">Mark Shuttleworth</a> to create open source administrative software for schools around the world...</p>
             </div>
-            <a href="http://book.schooltool.org/2.3-release-notes.html"
+            <a href="http://opensource.com/education/13/2/schooltool"
                class="learn right">
-              learn more
+              continue reading at opensource.com
             </a>
           </div>
         </div>
@@ -315,11 +300,6 @@
                 <a href="http://www.ubuntu.com/download/ubuntu/download">download</a>
                 and install it, run it off a CD or USB drive, or even
                 <a href="http://www.ubuntu.com/download/ubuntu/windows-installer">run it alongside Windows</a>, all for free.
-              </p>
-              <p>
-                <a href="http://fedoraproject.org/">Fedora Linux</a>
-                packages are provided to the community by <a
-                href="http://www.olenepal.org/">OLE Nepal</a>.
               </p>
               <p>
                 SchoolTool is also available from and supported by
@@ -360,11 +340,6 @@
                   <a href="http://www.cteresource.org/">The Virginia
                   CTE Resource Center</a> supports 25 sites using
                   CanDo to manage competency tracking.
-                </li>
-                <li>
-                  The <a href="http://www.fabacademy.org/">Fab
-                  Academy</a> is using SchoolTool for their global
-                  digital fabrication program's class of 2013.
                 </li>
                 <li>
                   <a href="http://www.vcuautismcenter.org/index.cfm">The
