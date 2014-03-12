@@ -273,13 +273,29 @@
           <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
-                SchoolTool Featured on OpenSource.com
+                Upcoming Releases: SchoolTool 2.8 and Beyond
               </h5>
-             <p>In 2005, <a title="Arlington Career Center" href="http://www.apsva.us/Domain/1964" target="_blank">Arlington Career Center</a> teacher David Welsh had an unmanageable list of <a title="video and media tech competencies" href="http://www.cteresource.org/verso/courses/8497/video-and-media-technology-tasklist" target="_blank">77 Video and Media Technology competencies</a> to evaluate for each student in his classes. Yorktown High School computer science teacher Jeff Elkner was teaching his students to program in Python and bursting with enthusiasm for engaging students and teachers in open source processes. I had a new job leading the <a title="SchoolTool" href="http://schooltool.org" target="_blank">SchoolTool</a> project with a charge from entrepreneur and philanthropist <a title="Mark Shuttleworth" href="http://www.markshuttleworth.com/" target="_blank">Mark Shuttleworth</a> to create open source administrative software for schools around the world...</p>
+<p>SchoolTool 2.8 is scheduled for release in April 2014, co-inciding with the release of Ubuntu 14.04 LTS, Trusty Tahr.</p>
+
+<p>The 2.8 release will include several significant new features:</p>
+<ul>
+ <li>Student transcript reports.
+</li><li>
+ Parent access.
+</li><li>
+ Alternative report card layout.
+</li><li>
+ Grade levels can be assigned to courses.
+</li><li>
+Complete tracking of each student's progression through the school.
+</li><li>
+Tracking student progression through each section.
+</li>
+
             </div>
-            <a href="http://opensource.com/education/13/2/schooltool"
+            <a href="http://book.schooltool.org/2.8-and-beyond.html"
                class="learn right">
-              continue reading at opensource.com
+              continue reading full announcement...
             </a>
           </div>
         </div>
@@ -298,14 +314,10 @@
               <p>
                 If you are not already running Ubuntu, you can
                 <a href="http://www.ubuntu.com/download/ubuntu/download">download</a>
-                and install it, run it off a CD or USB drive, or even
-                <a href="http://www.ubuntu.com/download/ubuntu/windows-installer">run it alongside Windows</a>, all for free.
+                and install it on a hard drive, or just test it running on a CD or USB stick, all with no licensing costs.
               </p>
               <p>
-                SchoolTool is also available from and supported by
-                commercial vendors, such as
-                <a href="http://education.critical-links.com/">Critical
-                Links</a>.
+Commercial support, hosting and custom development is available from <a href="http://sielibre.com">SIELibre, LLC</a>.
               </p>
               <p>
                 SchoolTool can be hosted on a PC or server at the
