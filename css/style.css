@@ -254,7 +254,7 @@ h6{font-size:1em;}
 }
 
 section#main .rounded {
-    min-height: 380px;
+    min-height: 410px;
     padding-top: 165px;
     background-repeat: no-repeat;
 }
@@ -282,7 +282,7 @@ section#main .column .content p {
 
 section#main .column a.learn {
   position: absolute;
-  top: 538px;
+  top: 568px;
   right: 20px;
 }
 

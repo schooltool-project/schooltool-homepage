@@ -27,7 +27,7 @@
     -->
     <meta name="author" content="SchoolTool" />
     <meta name="Copyright"
-          content="Copyright (c) The Shuttleworth Foundation 2003 - 2012" />
+          content="Copyright (c) The Shuttleworth Foundation 2003 - 2014" />
     <!--
         Dublin Core Metadata : http://dublincore.org/
     -->
@@ -275,23 +275,36 @@
               <h5>
                 Upcoming Releases: SchoolTool 2.8 and Beyond
               </h5>
-<p>SchoolTool 2.8 is scheduled for release in April 2014, co-inciding with the release of Ubuntu 14.04 LTS, Trusty Tahr.</p>
-
-<p>The 2.8 release will include several significant new features:</p>
-<ul>
- <li>Student transcript reports.
-</li><li>
- Parent access.
-</li><li>
- Alternative report card layout.
-</li><li>
- Grade levels can be assigned to courses.
-</li><li>
-Complete tracking of each student's progression through the school.
-</li><li>
-Tracking student progression through each section.
-</li>
-
+              <p>
+                SchoolTool 2.8 is scheduled for release in April 2014,
+                co-inciding with the release of Ubuntu 14.04 LTS,
+                Trusty Tahr.
+              </p>
+              <p>
+                The 2.8 release will include several significant new
+                features:
+              </p>
+              <ul class="uses">
+                <li>
+                  Student transcript reports.
+                </li>
+                <li>
+                  Parent access.
+                </li>
+                <li>
+                  Alternative report card layout.
+                </li>
+                <li>
+                  Grade levels can be assigned to courses.
+                </li>
+                <li>
+                  Complete tracking of each student's progression
+                  through the school.
+                </li>
+                <li>
+                  Tracking student progression through each section.
+                </li>
+              </ul>
             </div>
             <a href="http://book.schooltool.org/2.8-and-beyond.html"
                class="learn right">
@@ -314,10 +327,14 @@ Tracking student progression through each section.
               <p>
                 If you are not already running Ubuntu, you can
                 <a href="http://www.ubuntu.com/download/ubuntu/download">download</a>
-                and install it on a hard drive, or just test it running on a CD or USB stick, all with no licensing costs.
+                and install it on a hard drive, or just test it
+                running on a CD or USB stick, all with no licensing
+                costs.
               </p>
               <p>
-Commercial support, hosting and custom development is available from <a href="http://sielibre.com">SIELibre, LLC</a>.
+                Commercial support, hosting and custom development is
+                available from <a href="http://sielibre.com">SIELibre,
+                LLC</a>.
               </p>
               <p>
                 SchoolTool can be hosted on a PC or server at the
@@ -368,19 +385,19 @@ Commercial support, hosting and custom development is available from <a href="ht
     </div><!-- End Content Wrapper -->
     <footer class="clearfix">
       <div class="column">
-  	<p>
+  	    <p>
           <small>
-            &copy; The Shuttleworth Foundation 2003 - 2013: Supporting
+            &copy; The Shuttleworth Foundation 2003 - 2014: Supporting
             exceptional people to change the world.
           </small>
         </p>
-  	<p>
+  	    <p>
           <small>
             SchoolTool&reg; is a trademark of the Shuttleworth
             Foundation.
           </small>
         </p>
-  	<p>
+  	    <p>
           <small>
             Intel&reg; is a trademark of Intel Corporation. Critical
             Links' Education Appliance&trade; is a trademark of

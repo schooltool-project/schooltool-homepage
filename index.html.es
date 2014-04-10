@@ -27,7 +27,7 @@
     -->
     <meta name="author" content="SchoolTool" />
     <meta name="Copyright"
-          content="Copyright (c) La Fundación Shuttleworth 2003 - 2012" />
+          content="Copyright (c) La Fundación Shuttleworth 2003 - 2014" />
     <!--
         Dublin Core Metadata : http://dublincore.org/
     -->
@@ -176,7 +176,8 @@
           <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
               <!-- Add new images for the slider here -->
-              <img src="images/slide-0.png" alt="Skills slide"
+              <img src="images/slide-0.png"
+                   alt="Diapositiva de competencias"
                    title="#slide-0-caption" />
               <img src="images/slide-1.png"
                    alt="Diapositiva del cuadro de notas"
@@ -283,28 +284,39 @@
           <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
-                SchoolTool 2.3 trae Registro de Competencias
+                Próximas Versiones: SchoolTool 2.8 y después
               </h5>
               <p>
-                Con SchoolTool 2.3, las escuelas pueden organizar y
-                registrar conjuntos complejos de competencias,
-                resultados o estándares.
+                La versión 2.8 de SchoolTool está programada para
+                Abril de 2014, concidiendo con la nueva versión de
+                Ubuntu 14.04 LTS, Trusty Tahr.
               </p>
               <p>
-                Desde 2005, el equipo de desarrollo de SchoolTool ha
-                colaborado con educadores del Centro Vocacional de
-                Arlington y del Technical Education Resource Center en
-                CanDo, una aplicación para dar apoyo a sus necesidades
-                complejas de registro de competencias en las escuelas
-                del condado.
+                La versión 2.8 incluirá varias características nuevas:
               </p>
-              <p>
-                Este año hemos reescrito CanDo completamente para
-                hacerlo útil a escuelas fuera de Virginia y
-                actualizarlo con el nuevo diseño de SchoolTool.
-              </p>
+              <ul class="uses">
+                <li>
+                  Reportes de transcripción del estudiante.
+                </li>
+                <li>
+                  Acceso de padres.
+                </li>
+                <li>
+                  Un esquema de libreta de notas alternativo.
+                </li>
+                <li>
+                  Grados asignados a cursos.
+                </li>
+                <li>
+                  Rastreo completo del progreso de cada estudiante a
+                  nivel escolar.
+                </li>
+                <li>
+                  Rastreo del progreso del estudiante en cada sección.
+                </li>
+              </ul>
             </div>
-            <a href="http://book.schooltool.org/2.3-release-notes.html"
+            <a href="http://book.schooltool.org/2.8-and-beyond.html"
                class="learn right">
               lea más
             </a>
@@ -325,20 +337,13 @@
               <p>
                 Si aún no usa Ubuntu, puede
                 <a href="http://www.ubuntu.com/download/ubuntu/download">descargarlo</a>
-                e instalarlo, correrlo desde un CD o un dispositivo
-                USB, e incluso
-                <a href="http://www.ubuntu.com/download/ubuntu/windows-installer">correrlo junto con Windows</a>, todo libremente.
+                e instalarlo en un disco duro, o simplemente correrlo
+                desde un CD o un dispositivo USB, todo libremente.
               </p>
               <p>
-                <a href="http://www.olenepal.org/">OLE Nepal</a>
-                brinda a la comunidad paquetes para
-                <a href="http://fedoraproject.org/">Fedora Linux</a>.
-              </p>
-              <p>
-                También existen compañías comerciales que brindan
-                soporte con SchoolTool, tales como
-                <a href="http://education.critical-links.com/">Critical
-                Links</a>.
+                <a href="http://sielibre.com/index.html.es">SIELibre,
+                LLC</a> proporciona soporte comercial, alojamiento y
+                desarrollo personalizado.
               </p>
               <p>
                 SchoolTool puede ser instalado en una computadora
@@ -376,11 +381,6 @@
                   CanDo para registrar competencias.
                 </li>
                 <li>
-                  La <a href="http://www.fabacademy.org/">Fab
-                  Academy</a> usará SchoolTool para sus clases del
-                  programa global de fabricación digital de 2013.
-                </li>
-                <li>
                   El <a href="http://www.vcuautismcenter.org/index.cfm">
                   Virginia Commonwealth University's Autism Center for
                   Excellence</a> usa SchoolTool para registrar
@@ -395,19 +395,19 @@
     </div><!-- End Content Wrapper -->
     <footer class="clearfix">
       <div class="column">
-  	<p>
+  	    <p>
           <small>
-            &copy; La Fundación Shuttleworth 2003 - 2012: Apoyando a
+            &copy; La Fundación Shuttleworth 2003 - 2014: Apoyando a
             gente excepcional para cambiar el mundo.
           </small>
         </p>
-  	<p>
+  	    <p>
           <small>
             SchoolTool&reg; es una marca registrada de la Fundación
             Shuttleworth.
           </small>
         </p>
-  	<p>
+  	    <p>
           <small>
             Intel&reg; es una marca regisrada de Intel
             Corporation. Education Appliance&trade; es una marca
