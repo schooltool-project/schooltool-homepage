@@ -273,15 +273,11 @@
           <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
-                Upcoming Releases: SchoolTool 2.8 and Beyond
+                SchoolTool 2.8 Now Available!
               </h5>
+             
               <p>
-                SchoolTool 2.8 is scheduled for release in April 2014,
-                co-inciding with the release of Ubuntu 14.04 LTS,
-                Trusty Tahr.
-              </p>
-              <p>
-                The 2.8 release will include several significant new
+                The 2.8 release includes several significant new
                 features:
               </p>
               <ul class="uses">
@@ -304,9 +300,15 @@
                 <li>
                   Tracking student progression through each section.
                 </li>
+                <li>
+                  Background imports
+                </li>
+                <li>
+                  Improved group and section membership forms
+                </li>
               </ul>
             </div>
-            <a href="http://book.schooltool.org/2.8-and-beyond.html"
+            <a href="http://book.schooltool.org/2.8-release-notes.html"
                class="learn right">
               continue reading full announcement...
             </a>
