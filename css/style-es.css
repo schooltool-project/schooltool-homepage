@@ -3,9 +3,9 @@ h4 {
 }
 
 section#main .rounded {
-    min-height: 440px;
+    min-height: 480px;
 }
 
 section#main .column a.learn {
-  top: 600px;
+  top: 640px;
 }
