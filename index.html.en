@@ -273,43 +273,25 @@
           <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
-                SchoolTool 2.8 Now Available!
+                You want a free School Information System? Try SchoolTool.
               </h5>
               <p>
-                The 2.8 release includes several significant new
-                features:
+              <a href="http://www.bringmoredata.blogspot.co.uk/2014/07/you-want-free-school-information-system.html">Joshua Perry, Director of Programme Support for 
+              ARK Schools writes</a>:
               </p>
-              <ul class="uses">
-                <li>
-                  Student transcript reports.
-                </li>
-                <li>
-                  Parent access.
-                </li>
-                <li>
-                  Alternative report card layout.
-                </li>
-                <li>
-                  Grade levels can be assigned to courses.
-                </li>
-                <li>
-                  Complete tracking of each student's progression
-                  through the school.
-                </li>
-                <li>
-                  Tracking student progression through each section.
-                </li>
-                <li>
-                  Background imports
-                </li>
-                <li>
-                  Improved group and section membership forms
-                </li>
-              </ul>
+            <blockquote>
+            A group of us at ARK (<a href="https://twitter.com/ARKcharity">@ARKcharity</a>) and PEAS (<a href="https://twitter.com/PEASchools">@PEASchools</a>) are collaborating to work out how to approach the 
+            School Information System (SIS) in developing countries. The first 
+            task is to get something working for the PEAS network of 24 
+            secondary schools in Uganda. But we&#8217;d also like our solution 
+            to be viable for publicly funded schools in any developing country.
+            <br /><br /> To have a sense of the size of that challenge, you need first to
+understand the funding disparity between schools in the developed
+and developing world...</blockquote>
             </div>
-            <a href="http://book.schooltool.org/2.8-release-notes.html"
+            <a href="http://www.arkonline.org/news/'school-information-systems'-not-just-for-developed-countries"
                class="learn right">
-              continue reading full announcement...
+              read more about SchoolTool and ARK
             </a>
           </div>
         </div>
@@ -320,17 +302,15 @@
           <div class="rounded clearfix" id="how-to-get-started">
             <div class="content">
               <p>
-                The core development team supports one-click
-                installation of SchoolTool on
-                <a href="http://www.ubuntu.com/">Ubuntu Linux</a> through
-                the <a href="http://www.ubuntu.com/ubuntu/features/ubuntu-software-centre">Ubuntu Software Centre</a>.
+                The core development team supports simple, automated
+                installation and updates for SchoolTool on
+                <a href="http://www.ubuntu.com/">Ubuntu Linux</a>.
               </p>
               <p>
                 If you are not already running Ubuntu, you can
                 <a href="http://www.ubuntu.com/download/ubuntu/download">download</a>
                 and install it on a hard drive, or just test it
-                running on a CD or USB stick, all with no licensing
-                costs.
+                running on a CD or USB stick.
               </p>
               <p>
                 Commercial support, hosting and custom development is
@@ -341,6 +321,11 @@
                 SchoolTool can be hosted on a PC or server at the
                 school site, or a remote server in "the cloud."
               </p>
+              <p>SchoolTool and Ubuntu Linux are free software, so you 
+                 can run it with no licensing fees to serve as many schools
+                 as you like.  SchoolTool is distributed under the terms of 
+                 the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU 
+                 General Public License v2.0</a>.</p>
             </div>
             <a href="http://book.schooltool.org/system-requirements.html"
                class="learn right">
@@ -356,9 +341,18 @@
             <div class="content">
               <p>
                 SchoolTool is part of ambitious technology deployments
-                on six continents, such as:
+                on six continents, including:
               </p>
               <ul class="uses">
+                <li>
+                As a customized student information system for <a href=
+                "http://www.peas.org.uk/">PEAS schools</a>
+                in Uganda, developed <a href=
+                "http://www.arkonline.org/news/'school-information-systems'-not-just-for-developed-countries">
+                in collaboration with</a> UK-based charities <a href=
+                "http://www.peas.org.uk/">Promoting Equality in African Schools
+                (PEAS)</a> and <a href="http://www.arkonline.org/">Absolute Return for Kids (ARK)</a>.
+                </li>
                 <li>
                   As a component of
                   <a href="http://education.critical-links.com/">Critical
