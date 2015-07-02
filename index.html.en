@@ -273,32 +273,33 @@
           <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
-                You want a free School Information System? Try SchoolTool.
+                SchoolTool 2.8.4 Released, SchoolTool 3.0 Announced
               </h5>
               <p>
-              <a href="http://www.bringmoredata.blogspot.co.uk/2014/07/you-want-free-school-information-system.html">Joshua Perry, Director of Programme Support for 
-              ARK Schools writes</a>:
+              <a href="http://sielibre.com">SIELibre, LLC</a> has released 
+              SchoolTool 2.8.4, a bugfix release 
+              of our free student information system.  This release addresses 
+              two issues: </p>
+              <ul class="uses">
+                <li>
+                  <a href="https://bugs.launchpad.net/schooltool.gradebook/+bug/1432672">
+                1432672</a> -- report cards omitting grades under certain 
+                circumstances;</li>
+                <li>
+                  <a href="https://bugs.launchpad.net/schooltool/+bug/1436881">
+                  1436881</a> -- comment dialog not working with certain 
+                browsers.</li>
+                </ul>
+
+              <p>SIELibre is planning to release a major update, SchoolTool 3.0,
+                in the third quarter of 2015, including a completely redesigned
+                "School" page, which streamlines common administrative tasks,
+                and a student fee tracking system.
               </p>
-              <blockquote>
-                A group of us at ARK
-                (<a href="https://twitter.com/ARKcharity">@ARKcharity</a>)
-                and PEAS
-                (<a href="https://twitter.com/PEASchools">@PEASchools</a>)
-                are collaborating to work out how to approach the
-                School Information System (SIS) in developing
-                countries. The first task is to get something working
-                for the PEAS network of 24 secondary schools in
-                Uganda. But we'd also like our solution to be viable
-                for publicly funded schools in any developing country.
-                <br /><br /> To have a sense of the size of that
-                challenge, you need first to understand the funding
-                disparity between schools in the developed and
-                developing world...
-              </blockquote>
             </div>
-            <a href="http://www.arkonline.org/news/'school-information-systems'-not-just-for-developed-countries"
+            <a href="https://docs.google.com/document/u/1/d/1bTpy5elxDty6LgbHu04Zxk0liVetJ7Xu1qQ6WsXCsBA/pub"
                class="learn right">
-              read more about SchoolTool and ARK
+              read more...
             </a>
           </div>
         </div>
@@ -309,20 +310,16 @@
           <div class="rounded clearfix" id="how-to-get-started">
             <div class="content">
               <p>
-                The core development team supports simple, automated
-                installation and updates for SchoolTool on
+                Simple, automated
+                installation and updates are provided for SchoolTool on
                 <a href="http://www.ubuntu.com/">Ubuntu Linux</a>.
               </p>
+ 
               <p>
                 If you are not already running Ubuntu, you can
                 <a href="http://www.ubuntu.com/download/ubuntu/download">download</a>
                 and install it on a hard drive, or just test it
                 running on a CD or USB stick.
-              </p>
-              <p>
-                Commercial support, hosting and custom development is
-                available from <a href="http://sielibre.com">SIELibre,
-                LLC</a>.
               </p>
               <p>
                 SchoolTool can be hosted on a PC or server at the
@@ -333,6 +330,13 @@
                  as you like.  SchoolTool is distributed under the terms of 
                  the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU 
                  General Public License v2.0</a>.</p>
+                 <hr />
+                               <p>
+                Commercial support, hosting and custom development for 
+                SchoolTool  are
+                available from <a href="http://sielibre.com">SIELibre,
+                LLC</a>.
+              </p>
             </div>
             <a href="http://book.schooltool.org/system-requirements.html"
                class="learn right">
@@ -352,35 +356,28 @@
               </p>
               <ul class="uses">
                 <li>
-                  As a customized student information system
-                  for <a href= "http://www.peas.org.uk/">PEAS
-                  schools</a> in Uganda, developed <a href=
-                  "http://www.arkonline.org/news/'school-information-systems'-not-just-for-developed-countries">
-                  in collaboration with</a> UK-based
-                  charities <a href=
-                  "http://www.peas.org.uk/">Promoting Equality in
-                  African Schools (PEAS)</a>
-                  and <a href="http://www.arkonline.org/">Absolute
-                  Return for Kids (ARK)</a>.
+                  <a href="http://sielibre.com">SIELibre</a> has worked with 
+                  UK-based
+                  charity <a href="http://www.arkonline.org/">Absolute
+                  Return for Kids (ARK)</a> to create a customized version of
+                  SchoolTool for <a href= "http://www.peas.org.uk/">PEAS
+                  schools</a> in Uganda and a network of schools in India.
+                  Read more about this work on the blog of <a href="http://www.bringmoredata.blogspot.co.uk/2014/07/you-want-free-school-information-system.html">Joshua Perry, Director of Programme Support for 
+              ARK Schools</a>.
                 </li>
-                <li>
-                  As a component of
-                  <a href="http://education.critical-links.com/">Critical
-                  Links' Education Appliance</a>, SchoolTool
-                  supports millions of Intel Classmate PC's in
-                  1-to-1 laptop initiatives.
-                </li>
+
                 <li>
                   <a href="http://www.cteresource.org/">The Virginia
-                  CTE Resource Center</a> supports 25 sites using
+                  CTE Resource Center</a> supports over 30 sites using
                   CanDo to manage competency tracking.
                 </li>
                 <li>
-                  <a href="http://www.vcuautismcenter.org/index.cfm">The
-                  Virginia Commonwealth University's Autism Center for
-                  Excellence</a> is using SchoolTool to track social
-                  skills development in individuals with autism
-                  spectrum disorders.
+                The <a href="http://www.baiacademy.org/">Burundi American 
+                International Academy</a> in Kinindo,
+                Burundi uses SchoolTool as their primary student information
+                system and contracts with 
+                <a href="http://sielibre.com">SIELibre</a> for hosting and
+                support services. 
                 </li>
               </ul>
             </div>
@@ -392,8 +389,7 @@
       <div class="column">
   	    <p>
           <small>
-            &copy; The Shuttleworth Foundation 2003 - 2014: Supporting
-            exceptional people to change the world.
+            &copy; <a href="http://sielibre.com">SIELibre, LLC.</a>
           </small>
         </p>
   	    <p>
