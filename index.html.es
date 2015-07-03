@@ -422,13 +422,6 @@
             Shuttleworth.
           </small>
         </p>
-  	    <p>
-          <small>
-            Intel&reg; es una marca regisrada de Intel
-            Corporation. Education Appliance&trade; es una marca
-            registrada de Critical Links.
-          </small>
-        </p>
       </div>
     </footer>
   </body>
