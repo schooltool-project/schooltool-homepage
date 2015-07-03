@@ -276,25 +276,29 @@
                 SchoolTool 2.8.4 Released, SchoolTool 3.0 Announced
               </h5>
               <p>
-              <a href="http://sielibre.com">SIELibre, LLC</a> has released 
-              SchoolTool 2.8.4, a bugfix release 
-              of our free student information system.  This release addresses 
-              two issues: </p>
+                <a href="http://sielibre.com">SIELibre, LLC</a> has
+                released SchoolTool 2.8.4, a bugfix release of our
+                free student information system.  This release
+                addresses two issues:
+              </p>
               <ul class="uses">
                 <li>
                   <a href="https://bugs.launchpad.net/schooltool.gradebook/+bug/1432672">
-                1432672</a> -- report cards omitting grades under certain 
-                circumstances;</li>
+                    1432672</a> -- report cards omitting grades under
+                  certain circumstances;
+                </li>
                 <li>
                   <a href="https://bugs.launchpad.net/schooltool/+bug/1436881">
-                  1436881</a> -- comment dialog not working with certain 
-                browsers.</li>
-                </ul>
-
-              <p>SIELibre is planning to release a major update, SchoolTool 3.0,
-                in the third quarter of 2015, including a completely redesigned
-                "School" page, which streamlines common administrative tasks,
-                and a student fee tracking system.
+                    1436881</a> -- comment dialog not working with
+                  certain browsers.
+                </li>
+              </ul>
+              <p>
+                SIELibre is planning to release a major update,
+                SchoolTool 3.0, in the third quarter of 2015,
+                including a completely redesigned "School" page, which
+                streamlines common administrative tasks, and a student
+                fee tracking system.
               </p>
             </div>
             <a href="https://docs.google.com/document/u/1/d/1bTpy5elxDty6LgbHu04Zxk0liVetJ7Xu1qQ6WsXCsBA/pub"
@@ -329,9 +333,10 @@
                  can run it with no licensing fees to serve as many schools
                  as you like.  SchoolTool is distributed under the terms of 
                  the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU 
-                 General Public License v2.0</a>.</p>
-                 <hr />
-                               <p>
+                 General Public License v2.0</a>.
+              </p>
+              <hr />
+              <p>
                 Commercial support, hosting and custom development for 
                 SchoolTool  are
                 available from <a href="http://sielibre.com">SIELibre,
@@ -356,16 +361,18 @@
               </p>
               <ul class="uses">
                 <li>
-                  <a href="http://sielibre.com">SIELibre</a> has worked with 
-                  UK-based
+                  <a href="http://sielibre.com">SIELibre</a> has
+                  worked with UK-based
                   charity <a href="http://www.arkonline.org/">Absolute
-                  Return for Kids (ARK)</a> to create a customized version of
-                  SchoolTool for <a href= "http://www.peas.org.uk/">PEAS
-                  schools</a> in Uganda and a network of schools in India.
-                  Read more about this work on the blog of <a href="http://www.bringmoredata.blogspot.co.uk/2014/07/you-want-free-school-information-system.html">Joshua Perry, Director of Programme Support for 
-              ARK Schools</a>.
+                  Return for Kids (ARK)</a> to create a customized
+                  version of SchoolTool
+                  for <a href="http://www.peas.org.uk/">PEAS
+                  schools</a> in Uganda and a network of schools in
+                  India.  Read more about this work on the blog
+                  of <a href="http://www.bringmoredata.blogspot.co.uk/2014/07/you-want-free-school-information-system.html">Joshua
+                  Perry, Director of Programme Support for ARK Schools
+                  </a>.
                 </li>
-
                 <li>
                   <a href="http://www.cteresource.org/">The Virginia
                   CTE Resource Center</a> supports over 30 sites using

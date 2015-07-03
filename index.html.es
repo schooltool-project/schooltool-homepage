@@ -284,35 +284,39 @@
           <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
-                ¿Necesita un Sistema de Información Escolar libre?
-                Pruebe SchoolTool.
+                SchoolTool 2.8.4 Publicado, SchoolTool 3.0 Anunciado
               </h5>
               <p>
-                <a href="http://www.bringmoredata.blogspot.co.uk/2014/07/you-want-free-school-information-system.html">
-                  Joshua Perry, Director del Programa de Apoyo para ARK
-                  Schools escribe
-                </a>:
+                <a href="http://sielibre.com/index.html.es">SIELibre,
+                LLC</a> ha publicado SchoolTool 2.8.4, una versión de
+                arreglos a fallas de nuestro sistema libre de
+                información estudiantil. Esta versión soluciona dos
+                problemas:
               </p>
-              <blockquote>
-                Un grupo de nosotros en ARK
-                (<a href="https://twitter.com/ARKcharity">@ARKcharity</a>)
-                y PEAS
-                (<a href="https://twitter.com/PEASchools">@PEASchools</a>)
-                estamos colaborando en resolver cómo implementar un
-                Sistema de Información Escolar en países en
-                desarrollo. La primera tarea es tener algo funcional
-                para la red PEAS de 24 escuelas secundarias en
-                Uganda. Pero quisiéramos también que nuestra solución
-                sea viable para escuelas públicas en cualquier país en
-                desarrollo.<br /><br /> Para tener una idea del tamaño
-                del reto, primero se necesita entender la disparidad
-                del financiamiento entre las escuelas de los países
-                desarrollados y las de los países no desarrollados...
-              </blockquote>
+              <ul class="uses">
+                <li>
+                  <a href="https://bugs.launchpad.net/schooltool.gradebook/+bug/1432672">
+                    1432672</a> -- las libretas de notas omiten
+                    calificaciones bajo ciertas circunstancias;
+                </li>
+                <li>
+                  <a href="https://bugs.launchpad.net/schooltool/+bug/1436881">
+                    1436881</a> -- el diálogo de comentarios no
+                    funciona con ciertos navegadores.
+                </li>
+              </ul>
+              <p>
+                SIELibre planea publicar una actualización principal,
+                SchoolTool 3.0, en el tercer trimestre de 2015,
+                incluyendo una página "Escuela" completamente
+                rediseñada, que simplifica las tareas administrativas
+                comunes, y un sistema de rastreo de cuotas del
+                estudiante.
+              </p>
             </div>
-            <a href="http://www.arkonline.org/news/'school-information-systems'-not-just-for-developed-countries"
+            <a href="https://docs.google.com/document/u/1/d/1bTpy5elxDty6LgbHu04Zxk0liVetJ7Xu1qQ6WsXCsBA/pub"
                class="learn right">
-              lea más sobre SchoolTool y ARK
+              lea más...
             </a>
           </div>
         </div>
@@ -323,8 +327,8 @@
           <div class="rounded clearfix" id="how-to-get-started">
             <div class="content">
               <p>
-                El equipo base de desarrollo da apoyo en la
-                instalación simple y automatizada de SchoolTool
+                Existen instaladores y actualizaciones simples y
+                automatizadas de SchoolTool
                 en <a href="http://www.ubuntu.com/">Ubuntu Linux</a>.
               </p>
               <p>
@@ -332,11 +336,6 @@
                 <a href="http://www.ubuntu.com/download/ubuntu/download">descargarlo</a>
                 e instalarlo en un disco duro, o simplemente correrlo
                 desde un CD o un dispositivo USB, todo libremente.
-              </p>
-              <p>
-                <a href="http://sielibre.com/index.html.es">SIELibre,
-                LLC</a> proporciona soporte comercial, alojamiento y
-                desarrollo personalizado.
               </p>
               <p>
                 SchoolTool puede ser instalado en una computadora
@@ -352,10 +351,17 @@
                 la <a href="http://www.gnu.org/licenses/gpl-2.0.html">Licencia
                 Pública General GNU v2.0</a>.
               </p>
+              <hr />
+              <p>
+                Existen servicios comerciales de apoyo, alojamiento y
+                desarrollo personalizado para SchoolTool disponibles
+                en <a href="http://sielibre.com/index.html.es">SIELibre,
+                LLC</a>.
+              </p>
             </div>
             <a href="http://book.schooltool.org/es/system-requirements.html"
                class="learn right">
-              lea más
+              lea más...
             </a>
           </div>
         </div>
@@ -371,36 +377,31 @@
               </p>
               <ul class="uses">
                 <li>
-                  Como un sistema de información estudiantil
-                  personalizado para <a href=
-                  "http://www.peas.org.uk/">las escuelas PEAS</a> en
-                  Uganda, desarrollado <a href=
-                  "http://www.arkonline.org/news/'school-information-systems'-not-just-for-developed-countries">
-                  en colaboración</a> con las organizaciones benéficas
-                  del Reino Unido <a href=
-                  "http://www.peas.org.uk/">Promoting Equality in
-                  African Schools (PEAS)</a>
-                  y <a href="http://www.arkonline.org/">Absolute
-                  Return for Kids (ARK)</a>.
-                </li>
-                <li>
-                  Como componente del 
-                  <a href="http://education.critical-links.com/">Education
-                  Appliance de Critical Links</a>, SchoolTool
-                  es usado por millones de computadoras Intel
-                  Classmate en iniciativas de laptops 1-a-1.
+                  <a href="http://sielibre.com/index.html.es">SIELibre</a> ha
+                  trabajado con la organización benéfica del Reino
+                  Unido
+                  <a href="http://www.arkonline.org/">Absolute Return
+                  for Kids (ARK)</a> para crear una versión
+                  personalizada de SchoolTool para <a href=
+                  "http://www.peas.org.uk/">las escuelas PEA</a> en
+                  Uganda y una red de escuelas en India. Lea más sobre
+                  este trabajo en el blog
+                  de <a href="http://www.bringmoredata.blogspot.co.uk/2014/07/you-want-free-school-information-system.html">Joshua
+                  Perry, Director del Programa de Apoyo para ARK
+                  Schools</a>.
                 </li>
                 <li>
                   <a href="http://www.cteresource.org/">El Virginia
-                  CTE Resource Center</a> da apoyo a 50 centros que utilizan
-                  CanDo para registrar competencias.
+                  CTE Resource Center</a> da apoyo a 30 centros que
+                  utilizan CanDo para registrar competencias.
                 </li>
                 <li>
-                  El <a href="http://www.vcuautismcenter.org/index.cfm">
-                  Virginia Commonwealth University's Autism Center for
-                  Excellence</a> usa SchoolTool para registrar
-                  competencias sociales en individuos con desordenes
-                  del espectro del autismo.
+                  La <a href="http://www.baiacademy.org/">Burundi
+                  American International Academy</a> en Kinindo,
+                  Burundi usa SchoolTool como su sistema de
+                  información estudiantil principal y ha contratado a
+                  <a href="http://sielibre.com/index.html.es">SIELibre</a>
+                  para obtener servicios de alojamiento y soporte.
                 </li>
               </ul>
             </div>
@@ -412,8 +413,7 @@
       <div class="column">
   	    <p>
           <small>
-            &copy; La Fundación Shuttleworth 2003 - 2014: Apoyando a
-            gente excepcional para cambiar el mundo.
+            &copy; <a href="http://sielibre.com/index.html.es">SIELibre, LLC.</a>
           </small>
         </p>
   	    <p>
