@@ -273,35 +273,22 @@
           <div class="rounded clearfix" id="whats-new">
             <div class="content">
               <h5>
-                SchoolTool 2.8.4 Released, SchoolTool 3.0 Announced
+                SchoolTool 2015 Annual Report
               </h5>
-              <p>
-                <a href="http://sielibre.com">SIELibre, LLC</a> has
-                released SchoolTool 2.8.4, a bugfix release of our
-                free student information system.  This release
-                addresses two issues:
+              <p>While Mark Shuttleworth was funding SchoolTool development, 
+              each year we prepared an annual report for him.  While Mark's 
+              generous support ended after 2014, I have decided to continue 
+              this tradition now that SchoolTool’s open source development is 
+              funded by <a href="http://sielibre.com">SIELibre</a> and our 
+              clients.</p>
+              <p>The most important point is that we have been able to continue 
+              SchoolTool development independently throughout 2015. Douglas 
+              Cerna worked full time and more on SchoolTool through 2015 and 
+              plans to continue into 2016.  I have continued managing the 
+              product and our new business.      
               </p>
-              <ul class="uses">
-                <li>
-                  <a href="https://bugs.launchpad.net/schooltool.gradebook/+bug/1432672">
-                    1432672</a> -- report cards omitting grades under
-                  certain circumstances;
-                </li>
-                <li>
-                  <a href="https://bugs.launchpad.net/schooltool/+bug/1436881">
-                    1436881</a> -- comment dialog not working with
-                  certain browsers.
-                </li>
-              </ul>
-              <p>
-                SIELibre is planning to release a major update,
-                SchoolTool 3.0, in the third quarter of 2015,
-                including a completely redesigned "School" page, which
-                streamlines common administrative tasks, and a student
-                fee tracking system.
-              </p>
-            </div>
-            <a href="https://docs.google.com/document/u/1/d/1bTpy5elxDty6LgbHu04Zxk0liVetJ7Xu1qQ6WsXCsBA/pub"
+             </div>
+            <a href="http://book.schooltool.org/2015-annual-report.html"
                class="learn right">
               read more...
             </a>
